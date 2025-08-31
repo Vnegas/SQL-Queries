@@ -40,4 +40,5 @@ It covers **SQL**, **Analytics SQL**, **NoSQL**, and **SpatialSQL (Oracle APEX)*
 - **Spatial SQL**: Oracle APEX  
 - **Language**: Standard SQL + Oracle extensions  
 
----
+# Credits
+Sebastián Venegas Brenes
