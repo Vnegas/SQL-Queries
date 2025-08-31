@@ -1,0 +1,391 @@
+2024-11-11 03:40:26.869 UTC INFO - [admin1] Initializing PRIMARY Admin for store: kvstore
+2024-11-11 03:40:26.871 UTC INFO - [admin1] Created new admin environment dir: ./kvroot/kvstore/sn1/admin1/env
+2024-11-11 03:40:26.872 UTC INFO - [admin1] JVM Runtime maxMemory (bytes): 67108864
+2024-11-11 03:40:26.873 UTC INFO - [admin1] Non-default JE properties for environment: {je.cleaner.threads=2, je.evictor.criticalPercentage=20, je.maxDisk=3221225472, je.cleaner.minUtilization=40, je.log.numBuffers=16, je.lock.timeout=10 s, je.env.runVerifier=false, je.cleaner.readSize=1048576, je.log.writeQueueSize=2097152, je.log.fileCacheSize=2000, je.log.iteratorReadSize=1048576, je.log.fileMax=52428800, je.lock.nLockTables=97, je.env.runEvictor=true, je.cleaner.minFileUtilization=5, je.log.faultReadSize=4096, je.txn.durability=write_no_sync,write_no_sync,simple_majority, je.nodeMaxEntries=128}
+2024-11-11 03:40:26.879 UTC INFO - [admin1] DataChannelFactory: basic
+2024-11-11 03:40:26.881 UTC INFO - [admin1] AdminStateTracker-serviceId-admin1 thread start: admin1
+2024-11-11 03:40:26.920 UTC INFO - [admin1] JE: Coordinating tasks:JEBackupManagerCopyLogFileMax real permits:1
+2024-11-11 03:40:27.089 UTC INFO - [admin1] JE recovery: POPULATE_UTILIZATION_PROFILE
+2024-11-11 03:40:27.111 UTC INFO - [admin1] JE recovery: POPULATE_EXPIRATION_PROFILE
+2024-11-11 03:40:27.115 UTC INFO - [admin1] JE recovery: REMOVE_TEMP_DBS
+2024-11-11 03:40:27.122 UTC INFO - [admin1] JE recovery: CKPT
+2024-11-11 03:40:27.123 UTC INFO - [admin1] JE: Checkpoint Start.Checkpoint Id=1
+2024-11-11 03:40:27.175 UTC INFO - [admin1] JE: Checkpoint End. Checkpoint Id=1 success=true
+2024-11-11 03:40:27.189 UTC INFO - [admin1] JE recovery: RECOVERY_FINISHED
+2024-11-11 03:40:27.229 UTC INFO - [admin1] JE: No server auth method
+2024-11-11 03:40:27.231 UTC INFO - [admin1] JE: Started ServiceDispatcher. HostPort=localhost:5002
+2024-11-11 03:40:27.232 UTC INFO - [admin1] JE: DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2024-11-11 03:40:27.258 UTC INFO - [admin1] JE: DTVLSN at start:0
+2024-11-11 03:40:27.259 UTC INFO - [admin1] JE: node:NullNode(-1) state change from DETACHED to UNKNOWN
+2024-11-11 03:40:27.270 UTC INFO - [admin1] JE: Learner started
+2024-11-11 03:40:27.272 UTC INFO - [admin1] JE: Acceptor started
+2024-11-11 03:40:27.273 UTC INFO - [admin1] JE: Current group size: 0
+2024-11-11 03:40:27.273 UTC INFO - [admin1] JE: New node 1(-1) unknown to rep group
+2024-11-11 03:40:27.273 UTC INFO - [admin1] JE: Learner notified. Proposal:Proposal(00000193194efd09:ecc5922f027886ea01347fd3a6efdfe9:00000001) Value: Value:127.0.0.1$$$5002$$$1$$$1
+2024-11-11 03:40:27.274 UTC INFO - [admin1] JE: Master changed to 1
+2024-11-11 03:40:27.274 UTC INFO - [admin1] JE: Nascent group. 1 is master by virtue of being the first node.
+2024-11-11 03:40:27.275 UTC INFO - [admin1] JE: node:1(1) state change from UNKNOWN to MASTER
+2024-11-11 03:40:27.695 UTC INFO - [admin1] JE: Successfully added node:1(1) HostPort = 127.0.0.1: 5002 [ELECTABLE]
+2024-11-11 03:40:27.701 UTC INFO - [admin1] JE recovery: BECOME_CONSISTENT
+2024-11-11 03:40:27.703 UTC INFO - [admin1] JE: Node 1 started
+2024-11-11 03:40:27.705 UTC INFO - [admin1] JE: node:NullNode(-1) state change from MASTER to UNKNOWN
+2024-11-11 03:40:27.715 UTC INFO - [admin1] JE: node:1(1) state change from UNKNOWN to MASTER
+2024-11-11 03:40:27.716 UTC INFO - [admin1] JE: Feeder manager accepting requests.
+2024-11-11 03:40:27.717 UTC INFO - [admin1] JE: Joining group as master
+2024-11-11 03:40:27.718 UTC INFO - [admin1] State change event: Sun Nov 10 21:40:27 CST 2024, State: MASTER, Type: PRIMARY, Master: 1
+2024-11-11 03:40:27.718 UTC INFO - [admin1] AdminStateTracker-serviceId-admin1 queue added:MASTER
+2024-11-11 03:40:27.719 UTC FINE - Closing StorewideLoggingView
+2024-11-11 03:40:27.782 UTC INFO - [admin1] Initializing Admin database
+2024-11-11 03:40:27.797 UTC INFO - [admin1] Admin database initialized
+2024-11-11 03:40:27.843 UTC INFO - [admin1] statusListener service port: 39003
+2024-11-11 03:40:27.844 UTC INFO - [admin1] perfListener service port: 39003
+2024-11-11 03:40:27.844 UTC INFO - [admin1] logListener service port: 39003
+2024-11-11 03:40:27.855 UTC INFO - [admin1] Starting Thread[System table monitor,5,RMI Runtime]
+2024-11-11 03:40:27.855 UTC INFO - [admin1] Checking status of system tables
+2024-11-11 03:40:27.858 UTC INFO - [admin1] Replicated environment handle established. Cache size: 40265318, State: MASTER
+2024-11-11 03:40:27.868 UTC INFO - [admin1] Starting task: interval is 20 SECONDS, delay is 12132(ms)
+2024-11-11 03:40:27.869 UTC INFO - [admin1] Configured Admin for store: kvstore
+2024-11-11 03:40:27.871 UTC INFO - [admin1] Admin web service is not starting up, web port: -1
+2024-11-11 03:40:27.987 UTC INFO - [admin1] PlanStateChange [id=1 name=Deploy KVLite state=APPROVED at 2024-11-11 03:40:27 UTC numAttempts=0 : approval requested]
+2024-11-11 03:40:28.060 UTC INFO - [admin1] Plan 1 [Deploy KVLite] approved
+2024-11-11 03:40:28.070 UTC INFO - [admin1] PlanStateChange [id=1 name=Deploy KVLite state=RUNNING at 2024-11-11 03:40:28 UTC numAttempts=1 : Plan is starting]
+2024-11-11 03:40:28.071 UTC INFO - [admin1] Plan 1 [Deploy KVLite] started, 1 tasks
+2024-11-11 03:40:28.097 UTC INFO - [admin1] PlanStateChange [id=2 name=SYS$Create system table SYS$MRTableAgentStat state=APPROVED at 2024-11-11 03:40:28 UTC numAttempts=0 : approval requested]
+2024-11-11 03:40:28.178 UTC INFO - [admin1] Plan 2 [SYS$Create system table SYS$MRTableAgentStat] approved
+2024-11-11 03:40:28.183 UTC INFO - [admin1] PlanStateChange [id=2 name=SYS$Create system table SYS$MRTableAgentStat state=RUNNING at 2024-11-11 03:40:28 UTC numAttempts=1 : Plan is starting]
+2024-11-11 03:40:28.184 UTC INFO - [admin1] Plan 2 [SYS$Create system table SYS$MRTableAgentStat] started, 1 tasks
+2024-11-11 03:40:28.273 UTC INFO - [admin1] Plan 2 [SYS$Create system table SYS$MRTableAgentStat] task [AddTable SYS$MRTableAgentStat] [1] started
+2024-11-11 03:40:28.312 UTC INFO - [admin1] PlanStateChange [id=3 name=SYS$Create system table SYS$SGAttributesTable state=APPROVED at 2024-11-11 03:40:28 UTC numAttempts=0 : approval requested]
+2024-11-11 03:40:28.312 UTC INFO - [admin1] Plan 1 [Deploy KVLite] task [DeployDatacenter zone=KVLite] [1] started
+2024-11-11 03:40:28.392 UTC INFO - [admin1] Plan 3 [SYS$Create system table SYS$SGAttributesTable] approved
+2024-11-11 03:40:28.396 UTC INFO - [admin1] PlanStateChange [id=3 name=SYS$Create system table SYS$SGAttributesTable state=RUNNING at 2024-11-11 03:40:28 UTC numAttempts=1 : Plan is starting]
+2024-11-11 03:40:28.397 UTC INFO - [admin1] PlanProgress [id=1 name=Deploy KVLite state=RUNNING reportTime=2024-11-11 03:40:28 UTC numAttempts=1 generalTask_Total=1 generalTask_Successful=1]
+2024-11-11 03:40:28.397 UTC INFO - [admin1] Plan 3 [SYS$Create system table SYS$SGAttributesTable] started, 1 tasks
+2024-11-11 03:40:28.431 UTC INFO - [admin1] PlanProgress [id=2 name=SYS$Create system table SYS$MRTableAgentStat state=RUNNING reportTime=2024-11-11 03:40:28 UTC numAttempts=1 generalTask_Total=1 generalTask_Successful=1]
+2024-11-11 03:40:28.473 UTC INFO - [admin1] Plan 1 [Deploy KVLite] task [DeployDatacenter zone=KVLite] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:28.473 UTC INFO - [admin1] Plan 3 [SYS$Create system table SYS$SGAttributesTable] task [AddTable SYS$SGAttributesTable] [1] started
+2024-11-11 03:40:28.479 UTC INFO - [admin1] PlanStateChange [id=1 name=Deploy KVLite state=SUCCEEDED at 2024-11-11 03:40:28 UTC numAttempts=1 : Plan finished.]
+2024-11-11 03:40:28.510 UTC INFO - [admin1] Plan 2 [SYS$Create system table SYS$MRTableAgentStat] task [AddTable SYS$MRTableAgentStat] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:28.512 UTC INFO - [admin1] PlanStateChange [id=2 name=SYS$Create system table SYS$MRTableAgentStat state=SUCCEEDED at 2024-11-11 03:40:28 UTC numAttempts=1 : Plan finished.]
+2024-11-11 03:40:28.555 UTC INFO - [admin1] Plan 1 [Deploy KVLite] ended, state=SUCCEEDED
+2024-11-11 03:40:28.590 UTC INFO - [admin1] Plan 2 [SYS$Create system table SYS$MRTableAgentStat] ended, state=SUCCEEDED
+2024-11-11 03:40:28.635 UTC INFO - [admin1] PlanStateChange [id=4 name=SYS$Create system table SYS$TableStatsPartition state=APPROVED at 2024-11-11 03:40:28 UTC numAttempts=0 : approval requested]
+2024-11-11 03:40:28.636 UTC INFO - [admin1] PlanProgress [id=3 name=SYS$Create system table SYS$SGAttributesTable state=RUNNING reportTime=2024-11-11 03:40:28 UTC numAttempts=1 generalTask_Total=1 generalTask_Successful=1]
+2024-11-11 03:40:28.670 UTC INFO - [admin1] Plan 4 [SYS$Create system table SYS$TableStatsPartition] approved
+2024-11-11 03:40:28.671 UTC INFO - [admin1] PlanStateChange [id=4 name=SYS$Create system table SYS$TableStatsPartition state=RUNNING at 2024-11-11 03:40:28 UTC numAttempts=1 : Plan is starting]
+2024-11-11 03:40:28.671 UTC INFO - [admin1] Plan 4 [SYS$Create system table SYS$TableStatsPartition] started, 1 tasks
+2024-11-11 03:40:28.714 UTC INFO - [admin1] Plan 3 [SYS$Create system table SYS$SGAttributesTable] task [AddTable SYS$SGAttributesTable] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:28.717 UTC INFO - [admin1] PlanStateChange [id=3 name=SYS$Create system table SYS$SGAttributesTable state=SUCCEEDED at 2024-11-11 03:40:28 UTC numAttempts=1 : Plan finished.]
+2024-11-11 03:40:28.750 UTC INFO - [admin1] Plan 4 [SYS$Create system table SYS$TableStatsPartition] task [AddTable SYS$TableStatsPartition] [1] started
+2024-11-11 03:40:28.795 UTC INFO - [admin1] Plan 3 [SYS$Create system table SYS$SGAttributesTable] ended, state=SUCCEEDED
+2024-11-11 03:40:28.796 UTC INFO - [admin1] PlanStateChange [id=5 name=Deploy Storage Node state=APPROVED at 2024-11-11 03:40:28 UTC numAttempts=0 : approval requested]
+2024-11-11 03:40:28.874 UTC INFO - [admin1] Plan 5 [Deploy Storage Node] approved
+2024-11-11 03:40:28.877 UTC INFO - [admin1] PlanStateChange [id=5 name=Deploy Storage Node state=RUNNING at 2024-11-11 03:40:28 UTC numAttempts=1 : Plan is starting]
+2024-11-11 03:40:28.877 UTC INFO - [admin1] Plan 5 [Deploy Storage Node] started, 1 tasks
+2024-11-11 03:40:28.912 UTC INFO - [admin1] PlanProgress [id=4 name=SYS$Create system table SYS$TableStatsPartition state=RUNNING reportTime=2024-11-11 03:40:28 UTC numAttempts=1 generalTask_Total=1 generalTask_Successful=1]
+2024-11-11 03:40:28.954 UTC INFO - [admin1] PlanStateChange [id=6 name=SYS$Create system table SYS$IndexStatsLease state=APPROVED at 2024-11-11 03:40:28 UTC numAttempts=0 : approval requested]
+2024-11-11 03:40:28.954 UTC INFO - [admin1] Plan 5 [Deploy Storage Node] task [DeploySN sn1(127.0.0.1:5000)] [1] started
+2024-11-11 03:40:28.991 UTC INFO - [admin1] Plan 4 [SYS$Create system table SYS$TableStatsPartition] task [AddTable SYS$TableStatsPartition] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:28.991 UTC INFO - [admin1] PlanStateChange [id=4 name=SYS$Create system table SYS$TableStatsPartition state=SUCCEEDED at 2024-11-11 03:40:28 UTC numAttempts=1 : Plan finished.]
+2024-11-11 03:40:29.046 UTC INFO - [admin1] Plan 6 [SYS$Create system table SYS$IndexStatsLease] approved
+2024-11-11 03:40:29.047 UTC INFO - [admin1] PlanStateChange [id=6 name=SYS$Create system table SYS$IndexStatsLease state=RUNNING at 2024-11-11 03:40:29 UTC numAttempts=1 : Plan is starting]
+2024-11-11 03:40:29.047 UTC INFO - [admin1] Plan 6 [SYS$Create system table SYS$IndexStatsLease] started, 1 tasks
+2024-11-11 03:40:29.082 UTC INFO - [admin1] Plan 4 [SYS$Create system table SYS$TableStatsPartition] ended, state=SUCCEEDED
+2024-11-11 03:40:29.115 UTC INFO - [admin1] Plan 6 [SYS$Create system table SYS$IndexStatsLease] task [AddTable SYS$IndexStatsLease] [1] started
+2024-11-11 03:40:29.151 UTC INFO - [admin1] PlanStateChange [id=7 name=SYS$Create system table SYS$StreamRequest state=APPROVED at 2024-11-11 03:40:29 UTC numAttempts=0 : approval requested]
+2024-11-11 03:40:29.231 UTC INFO - [admin1] Plan 7 [SYS$Create system table SYS$StreamRequest] approved
+2024-11-11 03:40:29.234 UTC INFO - [admin1] PlanStateChange [id=7 name=SYS$Create system table SYS$StreamRequest state=RUNNING at 2024-11-11 03:40:29 UTC numAttempts=1 : Plan is starting]
+2024-11-11 03:40:29.235 UTC INFO - [admin1] Plan 7 [SYS$Create system table SYS$StreamRequest] started, 1 tasks
+2024-11-11 03:40:29.265 UTC INFO - [admin1] PlanProgress [id=6 name=SYS$Create system table SYS$IndexStatsLease state=RUNNING reportTime=2024-11-11 03:40:29 UTC numAttempts=1 generalTask_Total=1 generalTask_Successful=1]
+2024-11-11 03:40:29.300 UTC INFO - [admin1] Plan 7 [SYS$Create system table SYS$StreamRequest] task [AddTable SYS$StreamRequest] [1] started
+2024-11-11 03:40:29.344 UTC INFO - [admin1] Plan 6 [SYS$Create system table SYS$IndexStatsLease] task [AddTable SYS$IndexStatsLease] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:29.345 UTC INFO - [admin1] PlanStateChange [id=6 name=SYS$Create system table SYS$IndexStatsLease state=SUCCEEDED at 2024-11-11 03:40:29 UTC numAttempts=1 : Plan finished.]
+2024-11-11 03:40:29.380 UTC INFO - [admin1] PlanStateChange [id=8 name=SYS$Create system table SYS$TableStatsIndex state=APPROVED at 2024-11-11 03:40:29 UTC numAttempts=0 : approval requested]
+2024-11-11 03:40:29.380 UTC INFO - [admin1] Monitor collector: adding sn1 to monitoring
+2024-11-11 03:40:29.059 UTC INFO - [sn1] Starting StorageNodeAgent for kvstore NoSQL version:20.3.18 2021-05-05 05:19:35 UTC  Build id: 8d8b7830ce8d Edition: Community JE version:20.3.17 Java version:11.0.24
+2024-11-11 03:40:29.276 UTC INFO - [sn1] Create collector service and register parameter listeners successfully.
+2024-11-11 03:40:29.281 UTC INFO - [sn1] Started MasterRebalanceThread
+2024-11-11 03:40:29.289 UTC INFO - [sn1] Starting MonitorAgent.  Server socket factory:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync> Client socket factory:<ClientSocketFactory name=kvstore|sn|monitor id=-322785315 connectMs=10000 readMs=5000 clientId=none localAddr=none>
+2024-11-11 03:40:29.292 UTC INFO - [sn1] kvstore:sn1:MONITOR service port: 41919
+2024-11-11 03:40:29.300 UTC INFO - [sn1] Successfully created secure proxy for the storage node agent
+2024-11-11 03:40:29.304 UTC INFO - [sn1] kvstore:sn1:MAIN service port: 41919
+2024-11-11 03:40:29.304 UTC INFO - [sn1] Rebound to registry port 5000 using name sn1 with SSF:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync>
+2024-11-11 03:40:29.305 UTC INFO - [sn1] Service status changed from STARTING to RUNNING
+2024-11-11 03:40:29.389 UTC INFO - [admin1] [sn1] Service status: RUNNING 2024-11-11 03:40:29 UTC
+2024-11-11 03:40:29.305 UTC INFO - [sn1] Started StorageNodeAgent for kvstore
+2024-11-11 03:40:29.413 UTC INFO - [admin1] Plan 6 [SYS$Create system table SYS$IndexStatsLease] ended, state=SUCCEEDED
+2024-11-11 03:40:29.449 UTC INFO - [admin1] Plan 8 [SYS$Create system table SYS$TableStatsIndex] approved
+2024-11-11 03:40:29.449 UTC INFO - [admin1] PlanProgress [id=7 name=SYS$Create system table SYS$StreamRequest state=RUNNING reportTime=2024-11-11 03:40:29 UTC numAttempts=1 generalTask_Total=1 generalTask_Successful=1]
+2024-11-11 03:40:29.450 UTC INFO - [admin1] PlanStateChange [id=8 name=SYS$Create system table SYS$TableStatsIndex state=RUNNING at 2024-11-11 03:40:29 UTC numAttempts=1 : Plan is starting]
+2024-11-11 03:40:29.450 UTC INFO - [admin1] PlanProgress [id=5 name=Deploy Storage Node state=RUNNING reportTime=2024-11-11 03:40:29 UTC numAttempts=1 generalTask_Total=1 generalTask_Successful=1]
+2024-11-11 03:40:29.450 UTC INFO - [admin1] Plan 8 [SYS$Create system table SYS$TableStatsIndex] started, 1 tasks
+2024-11-11 03:40:29.518 UTC INFO - [admin1] Plan 5 [Deploy Storage Node] task [DeploySN sn1(127.0.0.1:5000)] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:29.518 UTC INFO - [admin1] Plan 8 [SYS$Create system table SYS$TableStatsIndex] task [AddTable SYS$TableStatsIndex] [1] started
+2024-11-11 03:40:29.518 UTC INFO - [admin1] Plan 7 [SYS$Create system table SYS$StreamRequest] task [AddTable SYS$StreamRequest] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:29.520 UTC INFO - [admin1] PlanStateChange [id=5 name=Deploy Storage Node state=SUCCEEDED at 2024-11-11 03:40:29 UTC numAttempts=1 : Plan finished.]
+2024-11-11 03:40:29.523 UTC INFO - [admin1] PlanStateChange [id=7 name=SYS$Create system table SYS$StreamRequest state=SUCCEEDED at 2024-11-11 03:40:29 UTC numAttempts=1 : Plan finished.]
+2024-11-11 03:40:29.551 UTC INFO - [admin1] PlanStateChange [id=9 name=SYS$Create system table SYS$StreamResponse state=APPROVED at 2024-11-11 03:40:29 UTC numAttempts=0 : approval requested]
+2024-11-11 03:40:29.586 UTC INFO - [admin1] Plan 7 [SYS$Create system table SYS$StreamRequest] ended, state=SUCCEEDED
+2024-11-11 03:40:29.586 UTC INFO - [admin1] Plan 5 [Deploy Storage Node] ended, state=SUCCEEDED
+2024-11-11 03:40:29.620 UTC INFO - [admin1] Plan 9 [SYS$Create system table SYS$StreamResponse] approved
+2024-11-11 03:40:29.621 UTC INFO - [admin1] PlanStateChange [id=9 name=SYS$Create system table SYS$StreamResponse state=RUNNING at 2024-11-11 03:40:29 UTC numAttempts=1 : Plan is starting]
+2024-11-11 03:40:29.621 UTC INFO - [admin1] Plan 9 [SYS$Create system table SYS$StreamResponse] started, 1 tasks
+2024-11-11 03:40:29.655 UTC INFO - [admin1] PlanProgress [id=8 name=SYS$Create system table SYS$TableStatsIndex state=RUNNING reportTime=2024-11-11 03:40:29 UTC numAttempts=1 generalTask_Total=1 generalTask_Successful=1]
+2024-11-11 03:40:29.689 UTC INFO - [admin1] Plan 9 [SYS$Create system table SYS$StreamResponse] task [AddTable SYS$StreamResponse] [1] started
+2024-11-11 03:40:29.724 UTC INFO - [admin1] Plan 8 [SYS$Create system table SYS$TableStatsIndex] task [AddTable SYS$TableStatsIndex] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:29.724 UTC INFO - [admin1] PlanStateChange [id=8 name=SYS$Create system table SYS$TableStatsIndex state=SUCCEEDED at 2024-11-11 03:40:29 UTC numAttempts=1 : Plan finished.]
+2024-11-11 03:40:29.758 UTC INFO - [admin1] PlanStateChange [id=10 name=SYS$Create system table SYS$MRTableInitCheckpoint state=APPROVED at 2024-11-11 03:40:29 UTC numAttempts=0 : approval requested]
+2024-11-11 03:40:29.793 UTC INFO - [admin1] Plan 8 [SYS$Create system table SYS$TableStatsIndex] ended, state=SUCCEEDED
+2024-11-11 03:40:29.827 UTC INFO - [admin1] PlanProgress [id=9 name=SYS$Create system table SYS$StreamResponse state=RUNNING reportTime=2024-11-11 03:40:29 UTC numAttempts=1 generalTask_Total=1 generalTask_Successful=1]
+2024-11-11 03:40:29.827 UTC INFO - [admin1] Plan 10 [SYS$Create system table SYS$MRTableInitCheckpoint] approved
+2024-11-11 03:40:29.830 UTC INFO - [admin1] PlanStateChange [id=10 name=SYS$Create system table SYS$MRTableInitCheckpoint state=RUNNING at 2024-11-11 03:40:29 UTC numAttempts=1 : Plan is starting]
+2024-11-11 03:40:29.830 UTC INFO - [admin1] Plan 10 [SYS$Create system table SYS$MRTableInitCheckpoint] started, 1 tasks
+2024-11-11 03:40:29.861 UTC INFO - [admin1] Plan 9 [SYS$Create system table SYS$StreamResponse] task [AddTable SYS$StreamResponse] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:29.863 UTC INFO - [admin1] PlanStateChange [id=9 name=SYS$Create system table SYS$StreamResponse state=SUCCEEDED at 2024-11-11 03:40:29 UTC numAttempts=1 : Plan finished.]
+2024-11-11 03:40:29.896 UTC INFO - [admin1] PlanStateChange [id=11 name=Deploy Admin Service state=APPROVED at 2024-11-11 03:40:29 UTC numAttempts=0 : approval requested]
+2024-11-11 03:40:29.896 UTC INFO - [admin1] Plan 10 [SYS$Create system table SYS$MRTableInitCheckpoint] task [AddTable SYS$MRTableInitCheckpoint] [1] started
+2024-11-11 03:40:29.930 UTC INFO - [admin1] Plan 9 [SYS$Create system table SYS$StreamResponse] ended, state=SUCCEEDED
+2024-11-11 03:40:29.964 UTC INFO - [admin1] Plan 11 [Deploy Admin Service] approved
+2024-11-11 03:40:29.968 UTC INFO - [admin1] PlanStateChange [id=11 name=Deploy Admin Service state=RUNNING at 2024-11-11 03:40:29 UTC numAttempts=1 : Plan is starting]
+2024-11-11 03:40:29.968 UTC INFO - [admin1] Plan 11 [Deploy Admin Service] started, 3 tasks
+2024-11-11 03:40:29.999 UTC INFO - [admin1] PlanProgress [id=10 name=SYS$Create system table SYS$MRTableInitCheckpoint state=RUNNING reportTime=2024-11-11 03:40:29 UTC numAttempts=1 generalTask_Total=1 generalTask_Successful=1]
+2024-11-11 03:40:30.033 UTC INFO - [admin1] PlanStateChange [id=12 name=SYS$Create system table SYS$PartitionStatsLease state=APPROVED at 2024-11-11 03:40:30 UTC numAttempts=0 : approval requested]
+2024-11-11 03:40:30.067 UTC INFO - [admin1] Plan 10 [SYS$Create system table SYS$MRTableInitCheckpoint] task [AddTable SYS$MRTableInitCheckpoint] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:30.068 UTC INFO - [admin1] PlanStateChange [id=10 name=SYS$Create system table SYS$MRTableInitCheckpoint state=SUCCEEDED at 2024-11-11 03:40:30 UTC numAttempts=1 : Plan finished.]
+2024-11-11 03:40:30.102 UTC INFO - [admin1] Plan 12 [SYS$Create system table SYS$PartitionStatsLease] approved
+2024-11-11 03:40:30.103 UTC INFO - [admin1] PlanStateChange [id=12 name=SYS$Create system table SYS$PartitionStatsLease state=RUNNING at 2024-11-11 03:40:30 UTC numAttempts=1 : Plan is starting]
+2024-11-11 03:40:30.104 UTC INFO - [admin1] Plan 12 [SYS$Create system table SYS$PartitionStatsLease] started, 1 tasks
+2024-11-11 03:40:30.137 UTC INFO - [admin1] Plan 10 [SYS$Create system table SYS$MRTableInitCheckpoint] ended, state=SUCCEEDED
+2024-11-11 03:40:30.172 UTC INFO - [admin1] Plan 12 [SYS$Create system table SYS$PartitionStatsLease] task [AddTable SYS$PartitionStatsLease] [1] started
+2024-11-11 03:40:30.172 UTC INFO - [admin1] Plan 11 [Deploy Admin Service] task [DeployAdmin admin1 on sn1] [1] started
+2024-11-11 03:40:30.276 UTC INFO - [admin1] newParameters called for Monitor
+2024-11-11 03:40:30.280 UTC INFO - [admin1] newGlobalParameters are identical to old global parameters
+2024-11-11 03:40:30.285 UTC INFO - [admin1] PlanProgress [id=12 name=SYS$Create system table SYS$PartitionStatsLease state=RUNNING reportTime=2024-11-11 03:40:30 UTC numAttempts=1 generalTask_Total=1 generalTask_Successful=1]
+2024-11-11 03:40:30.321 UTC INFO - [admin1] PlanProgress [id=11 name=Deploy Admin Service state=RUNNING reportTime=2024-11-11 03:40:30 UTC numAttempts=1 generalTask_Total=3 generalTask_Successful=1 generalTask_NotStarted=2]
+2024-11-11 03:40:30.354 UTC INFO - [admin1] Plan 12 [SYS$Create system table SYS$PartitionStatsLease] task [AddTable SYS$PartitionStatsLease] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:30.356 UTC INFO - [admin1] PlanStateChange [id=12 name=SYS$Create system table SYS$PartitionStatsLease state=SUCCEEDED at 2024-11-11 03:40:30 UTC numAttempts=1 : Plan finished.]
+2024-11-11 03:40:30.389 UTC INFO - [admin1] Plan 11 [Deploy Admin Service] task [DeployAdmin admin1 on sn1] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:30.393 UTC INFO - [admin1] Plan 11 [Deploy Admin Service] task [WaitForAdminState admin1 to reach RUNNING] [2] started
+2024-11-11 03:40:30.423 UTC INFO - [admin1] Plan 12 [SYS$Create system table SYS$PartitionStatsLease] ended, state=SUCCEEDED
+2024-11-11 03:40:30.461 UTC INFO - [admin1] PlanProgress [id=11 name=Deploy Admin Service state=RUNNING reportTime=2024-11-11 03:40:30 UTC numAttempts=1 generalTask_Total=3 generalTask_Successful=2 generalTask_NotStarted=1]
+2024-11-11 03:40:30.492 UTC INFO - [admin1] Plan 11 [Deploy Admin Service] task [WaitForAdminState admin1 to reach RUNNING] [2] ended, state=SUCCEEDED
+2024-11-11 03:40:30.494 UTC INFO - [admin1] Plan 11 [Deploy Admin Service] task [UpdateAdminHelperHost null] [3] started
+2024-11-11 03:40:30.527 UTC INFO - [admin1] oracle.kv.impl.admin.param.Parameters@209290f4 changed helperHost to 127.0.0.1:5002
+2024-11-11 03:40:30.583 UTC INFO - [admin1] PlanProgress [id=11 name=Deploy Admin Service state=RUNNING reportTime=2024-11-11 03:40:30 UTC numAttempts=1 generalTask_Total=3 generalTask_Successful=3]
+2024-11-11 03:40:30.619 UTC INFO - [admin1] Plan 11 [Deploy Admin Service] task [UpdateAdminHelperHost null] [3] ended, state=SUCCEEDED
+2024-11-11 03:40:30.621 UTC INFO - [admin1] PlanStateChange [id=11 name=Deploy Admin Service state=SUCCEEDED at 2024-11-11 03:40:30 UTC numAttempts=1 : Plan finished.]
+2024-11-11 03:40:30.652 UTC INFO - [admin1] Plan 11 [Deploy Admin Service] ended, state=SUCCEEDED
+2024-11-11 03:40:30.659 UTC INFO - [admin1] Created Storage Node Pool: KVLitePool
+2024-11-11 03:40:30.702 UTC INFO - [admin1] Added Storage Node sn1 to pool: KVLitePool
+2024-11-11 03:40:30.755 UTC INFO - [admin1] KVLite has nothing to rebalance
+2024-11-11 03:40:30.859 UTC INFO - [admin1] PlanStateChange [id=13 name=Deploy KVStore state=APPROVED at 2024-11-11 03:40:30 UTC numAttempts=0 : approval requested]
+2024-11-11 03:40:30.894 UTC INFO - [admin1] Plan 13 [Deploy KVStore] approved
+2024-11-11 03:40:30.900 UTC INFO - [admin1] Plan 13 [Deploy KVStore] deploying topology candidate KVLite.
+2024-11-11 03:40:30.904 UTC INFO - [admin1] Current topology: store=kvstore  numPartitions=0 sequence=2
+  zn: id=zn1 name=KVLite repFactor=1 type=PRIMARY allowArbiters=false masterAffinity=false
+
+  sn=[sn1] zn:[id=zn1 name=KVLite] 127.0.0.1:5000
+
+  numShards=0
+
+2024-11-11 03:40:30.904 UTC INFO - [admin1] Preview of changes to be executed by Plan 13 [Deploy KVStore]:
+Topology transformation from current deployed topology to KVLite:
+Create 1 shard 
+Create 1 RN 
+Create 10 partitions 
+
+shard rg1
+  1 new RN : rg1-rn1 
+  10 new partitions 
+
+2024-11-11 03:40:30.905 UTC INFO - [admin1] Target topology candidate: KVLite
+store=kvstore  numPartitions=10 sequence=14
+  zn: id=zn1 name=KVLite repFactor=1 type=PRIMARY allowArbiters=false masterAffinity=false
+
+  sn=[sn1] zn:[id=zn1 name=KVLite] 127.0.0.1:5000
+    [rg1-rn1]
+
+  numShards=1
+  shard=[rg1] num partitions=10
+    [rg1-rn1] sn=sn1
+
+2024-11-11 03:40:30.905 UTC INFO - [admin1] PlanStateChange [id=13 name=Deploy KVStore state=RUNNING at 2024-11-11 03:40:30 UTC numAttempts=1 : Plan is starting]
+2024-11-11 03:40:30.906 UTC INFO - [admin1] Plan 13 [Deploy KVStore] started, 9 tasks
+2024-11-11 03:40:30.950 UTC INFO - [admin1] Plan 13 [Deploy KVStore] task [UpdateDatacenterV2 zone=zn1] [1] started
+2024-11-11 03:40:30.987 UTC INFO - [admin1] PlanProgress [id=13 name=Deploy KVStore state=RUNNING reportTime=2024-11-11 03:40:30 UTC numAttempts=1 generalTask_Total=9 generalTask_Successful=1 generalTask_NotStarted=8]
+2024-11-11 03:40:31.030 UTC INFO - [admin1] Plan 13 [Deploy KVStore] task [UpdateDatacenterV2 zone=zn1] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:31.033 UTC INFO - [admin1] Plan 13 [Deploy KVStore] task [DeployShard on [sn1] zn:[id=zn1 name=KVLite] 127.0.0.1:5000 ] [2] started
+2024-11-11 03:40:31.124 UTC INFO - [admin1] PlanProgress [id=13 name=Deploy KVStore state=RUNNING reportTime=2024-11-11 03:40:31 UTC numAttempts=1 generalTask_Total=9 generalTask_Successful=2 generalTask_NotStarted=7]
+2024-11-11 03:40:31.158 UTC INFO - [admin1] Plan 13 [Deploy KVStore] task [DeployShard rg1 on [sn1] zn:[id=zn1 name=KVLite] 127.0.0.1:5000 ] [2] ended, state=SUCCEEDED
+2024-11-11 03:40:31.161 UTC INFO - [admin1] Plan 13 [Deploy KVStore] task [DeployNewRN on sn1(127.0.0.1:5000)] [3] started
+2024-11-11 03:40:31.169 UTC INFO - [admin1] Plan 13 [Deploy KVStore] task [DeployNewRN rg1-rn1 on sn1(127.0.0.1:5000)] creating rg1-rn1 on sn1 haPort=127.0.0.1:5,003 helpers=127.0.0.1:5003 storage directory path=/mnt/e/Universidad/BD_Avanzadas/tarea3/kv-20.3.18/kv-20.3.18/lib/./kvroot/kvstore/sn1 directory size=1,073,741,824 log directory path =null log directory size = 0 heapMB=unspecified cachePercent=70 cacheSize=unspecified -XX:ParallelGCThreads=70
+2024-11-11 03:40:32.380 UTC INFO - [admin1] Monitor collector: adding rg1-rn1 to monitoring
+2024-11-11 03:40:31.289 UTC INFO - [rg1-rn1] Thread[ rg1-rn1 RepNodeStateUpdateThread,5,RMI Runtime] started
+2024-11-11 03:40:31.301 UTC INFO - [rg1-rn1] NoSQL version:20.3.18 2021-05-05 05:19:35 UTC  Build id: 8d8b7830ce8d Edition: Community JE version:20.3.17 Java version:11.0.24
+2024-11-11 03:40:31.304 UTC INFO - [rg1-rn1] Created new environment dir: /mnt/e/Universidad/BD_Avanzadas/tarea3/kv-20.3.18/kv-20.3.18/lib/./kvroot/kvstore/sn1/rg1-rn1/env
+2024-11-11 03:40:31.307 UTC INFO - [rg1-rn1] Storage type of: /mnt/e/Universidad/BD_Avanzadas/tarea3/kv-20.3.18/kv-20.3.18/lib/./kvroot/kvstore/sn1/rg1-rn1/env is UNKNOWN
+2024-11-11 03:40:31.308 UTC INFO - [rg1-rn1] Can't get SN memory size. No memory allocation log.
+2024-11-11 03:40:31.308 UTC INFO - [rg1-rn1] JVM Runtime maxMemory:65,536 kB JE cache size:0 kB Max Offheap cache size:0 kB
+2024-11-11 03:40:31.339 UTC INFO - [rg1-rn1] Non-default JE properties for environment: {je.cleaner.threads=2, je.evictor.criticalPercentage=20, je.cleaner.minUtilization=40, je.log.numBuffers=16, je.rep.feederTimeout=10 s, je.rep.txnRollbackLimit=10, je.lock.timeout=10 s, je.rep.preHeartbeatTimeoutMs=5000000000, je.env.runVerifier=false, je.cleaner.readSize=1048576, je.log.writeQueueSize=2097152, je.rep.replicaAckTimeout=5 s, je.log.fileCacheSize=2000, je.log.iteratorReadSize=1048576, je.log.fileMax=1073741824, je.lock.nLockTables=97, je.env.runEvictor=true, je.rep.replicaTimeout=10 s, je.rep.consistencyPolicy=NoConsistencyRequiredPolicy, je.rep.ignoreSecondaryNodeId=true, je.cleaner.minFileUtilization=5, je.rep.envUnknownStateTimeout=10 s, je.log.faultReadSize=4096, je.txn.durability=write_no_sync,write_no_sync,simple_majority, je.rep.replayMaxOpenDbHandles=100, je.rep.vlsn.distance=1000000, je.rep.vlsn.logCacheSize=128, je.nodeMaxEntries=128}
+2024-11-11 03:40:31.339 UTC INFO - [rg1-rn1] DataChannelFactory: basic
+2024-11-11 03:40:31.346 UTC INFO - [rg1-rn1] Table manager created (max change history=1000)
+2024-11-11 03:40:31.352 UTC INFO - [rg1-rn1] Partition database cache mode: EVICT_LN
+2024-11-11 03:40:31.357 UTC INFO - [rg1-rn1] Starting task: interval is 20 SECONDS, delay is 8643(ms)
+2024-11-11 03:40:31.377 UTC INFO - [rg1-rn1] Request type ALL is enabled
+2024-11-11 03:40:31.383 UTC INFO - [rg1-rn1] Thread[ rg1-rn1 MetadataUpdateThread,5,RMI Runtime] started
+2024-11-11 03:40:31.384 UTC INFO - [rg1-rn1] Registering GC listener with G1 Young Generation
+2024-11-11 03:40:31.384 UTC INFO - [rg1-rn1] Registering GC listener with G1 Old Generation
+2024-11-11 03:40:31.397 UTC INFO - [rg1-rn1] Coordinating tasks:KVStorageStats, JEBackupManagerCopyLogFile, KVIndexCreationMax real permits:3
+2024-11-11 03:40:31.398 UTC INFO - [rg1-rn1] Starting RepNodeService
+2024-11-11 03:40:31.399 UTC INFO - [rg1-rn1] Starting RN MonitorAgent.  Server socket factory:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=8192 useAsync> Client socket connect factory: <ClientSocketFactory name=kvstore|rn|monitor id=-1681382062 connectMs=10000 readMs=10000 clientId=none localAddr=none>
+2024-11-11 03:40:31.405 UTC INFO - [rg1-rn1] kvstore:rg1-rn1:MONITOR service port: 44549
+2024-11-11 03:40:31.405 UTC INFO - [rg1-rn1] Starting MonitorAgent
+2024-11-11 03:40:31.411 UTC INFO - [rg1-rn1] Successfully created secure proxy for the repnode admin
+2024-11-11 03:40:31.417 UTC INFO - [rg1-rn1] kvstore:rg1-rn1:ADMIN service port: 44549
+2024-11-11 03:40:31.417 UTC INFO - [rg1-rn1] RepNodeAdmin registered
+2024-11-11 03:40:31.424 UTC INFO - [rg1-rn1] JE: Coordinating tasks:JEBackupManagerCopyLogFileMax real permits:1
+2024-11-11 03:40:31.441 UTC INFO - [rg1-rn1] JE recovery: POPULATE_UTILIZATION_PROFILE
+2024-11-11 03:40:31.442 UTC INFO - [rg1-rn1] JE recovery: POPULATE_EXPIRATION_PROFILE
+2024-11-11 03:40:31.443 UTC INFO - [rg1-rn1] JE recovery: REMOVE_TEMP_DBS
+2024-11-11 03:40:31.444 UTC INFO - [rg1-rn1] JE recovery: CKPT
+2024-11-11 03:40:31.445 UTC INFO - [rg1-rn1] JE: Checkpoint Start.Checkpoint Id=1
+2024-11-11 03:40:31.502 UTC INFO - [rg1-rn1] JE: Checkpoint End. Checkpoint Id=1 success=true
+2024-11-11 03:40:31.519 UTC INFO - [rg1-rn1] JE recovery: RECOVERY_FINISHED
+2024-11-11 03:40:31.523 UTC INFO - [rg1-rn1] JE: No server auth method
+2024-11-11 03:40:31.526 UTC INFO - [rg1-rn1] JE: Started ServiceDispatcher. HostPort=localhost:5003
+2024-11-11 03:40:31.530 UTC INFO - [rg1-rn1] JE: DTVLSN at start:0
+2024-11-11 03:40:31.531 UTC INFO - [rg1-rn1] JE: DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2024-11-11 03:40:31.531 UTC INFO - [rg1-rn1] JE: node:NullNode(-1) state change from DETACHED to UNKNOWN
+2024-11-11 03:40:31.533 UTC INFO - [rg1-rn1] JE: Learner started
+2024-11-11 03:40:31.534 UTC INFO - [rg1-rn1] JE: Acceptor started
+2024-11-11 03:40:31.534 UTC INFO - [rg1-rn1] JE: Current group size: 0
+2024-11-11 03:40:31.535 UTC INFO - [rg1-rn1] JE: New node rg1-rn1(-1) unknown to rep group
+2024-11-11 03:40:31.535 UTC INFO - [rg1-rn1] JE: Learner notified. Proposal:Proposal(00000193194f0daf:ecc5922f027886ea01347fd3a6efdfe9:00000002) Value: Value:127.0.0.1$$$5003$$$rg1-rn1$$$1
+2024-11-11 03:40:31.535 UTC INFO - [rg1-rn1] JE: Master changed to rg1-rn1
+2024-11-11 03:40:31.536 UTC INFO - [rg1-rn1] JE: Nascent group. rg1-rn1 is master by virtue of being the first node.
+2024-11-11 03:40:31.536 UTC INFO - [rg1-rn1] JE: node:rg1-rn1(1) state change from UNKNOWN to MASTER
+2024-11-11 03:40:31.705 UTC INFO - [rg1-rn1] JE: Successfully added node:rg1-rn1(1) HostPort = 127.0.0.1: 5003 [ELECTABLE]
+2024-11-11 03:40:31.707 UTC INFO - [rg1-rn1] JE recovery: BECOME_CONSISTENT
+2024-11-11 03:40:31.708 UTC INFO - [rg1-rn1] JE: Node rg1-rn1 started
+2024-11-11 03:40:31.709 UTC INFO - [rg1-rn1] JE: node:NullNode(-1) state change from MASTER to UNKNOWN
+2024-11-11 03:40:31.710 UTC INFO - [rg1-rn1] JE: node:rg1-rn1(1) state change from UNKNOWN to MASTER
+2024-11-11 03:40:31.711 UTC INFO - [rg1-rn1] JE: Feeder manager accepting requests.
+2024-11-11 03:40:31.711 UTC INFO - [rg1-rn1] JE: Joining group as master
+2024-11-11 03:40:31.712 UTC INFO - [rg1-rn1] Opened JE environment: 20.3.17 JVM max heap: 67,108,864 JE properties:  nodeName=null allowCreate=true recoveryProgressListener=true classLoader=false customStats=false cacheSize=46976204 offHeapCacheSize=0 cacheMode=EVICT_LN txnNoSync=false txnWriteNoSync=false exceptionListener=false map={je.log.numBuffers=16, je.maxMemory=0, je.rep.preHeartbeatTimeoutMs=5000000000, je.rep.replicaAckTimeout=5 s, je.log.fileCacheSize=2000, je.log.iteratorReadSize=1048576, je.lock.nLockTables=97, je.rep.nodeName=rg1-rn1, je.file.logging.directory=./kvroot/kvstore/log, je.maxOffHeapMemory=0, je.rep.ignoreSecondaryNodeId=true, je.rep.envUnknownStateTimeout=10 s, je.rep.vlsn.logCacheSize=128, je.rep.groupName=rg1, je.evictor.criticalPercentage=20, je.maxDisk=1073741824, je.rep.feederTimeout=10 s, je.rep.txnRollbackLimit=10, je.lock.timeout=10 s, je.checkpointer.bytesInterval=500000000, je.env.isTransactional=true, je.maxMemoryPercent=70, je.rep.preserveRecordVersion=true, je.log.faultReadSize=4096, je.txn.durability=WRITE_NO_SYNC,WRITE_NO_SYNC,SIMPLE_MAJORITY, je.rep.node.priority=1, je.cleaner.minUtilization=40, je.rep.disableAuthoritativeMaster=false, je.rep.electableGroupSizeOverride=0, je.file.logging.prefix=rg1-rn1, je.log.fileMax=1073741824, je.env.runEvictor=true, je.cleaner.minFileUtilization=5, je.rep.replayMaxOpenDbHandles=100, je.rep.vlsn.distance=1000000, je.nodeMaxEntries=128, je.rep.nodeHostPort=127.0.0.1:5003, je.cleaner.threads=2, je.env.runVerifier=false, je.cleaner.readSize=1048576, je.log.writeQueueSize=2097152, je.rep.helperHosts=127.0.0.1:5003, je.rep.replicaTimeout=10 s, je.rep.consistencyPolicy=NoConsistencyRequiredPolicy, je.rep.nodeType=ELECTABLE}
+2024-11-11 03:40:31.755 UTC INFO - [rg1-rn1] Local Environment version updated to: 20.3.18 2021-05-05 05:19:35 UTC  Build id: 8d8b7830ce8d Edition: Community Previous version:  none
+2024-11-11 03:40:31.760 UTC INFO - [rg1-rn1] State change event: Sun Nov 10 21:40:31 CST 2024, State: MASTER, Type: ELECTABLE, Master: rg1-rn1
+2024-11-11 03:40:31.761 UTC INFO - [rg1-rn1] MigrationStateTracker-serviceId-null queue added:MASTER
+2024-11-11 03:40:31.761 UTC INFO - [rg1-rn1] TableManagerStateTracker-serviceId-rg1-rn1 queue added:MASTER
+2024-11-11 03:40:31.762 UTC INFO - [rg1-rn1] MasterBalanceStateTracker-serviceId-rg1-rn1 queue added:MASTER
+2024-11-11 03:40:31.762 UTC INFO - [rg1-rn1] TextIndexFeederStateTracker-serviceId-rg1-rn1 queue added:MASTER
+2024-11-11 03:40:31.763 UTC INFO - [rg1-rn1] Replicated environment handle established. Cache size: 46976204, State: MASTER
+2024-11-11 03:40:31.764 UTC INFO - [rg1-rn1] Store did not contain a topology
+2024-11-11 03:40:31.765 UTC INFO - [rg1-rn1] Topology needs to be pushed to this node.
+2024-11-11 03:40:31.764 UTC INFO - [rg1-rn1] MasterBalanceStateTracker-serviceId-rg1-rn1 thread start: rg1-rn1
+2024-11-11 03:40:31.765 UTC INFO - [rg1-rn1] TableManagerStateTracker-serviceId-rg1-rn1 thread start: rg1-rn1
+2024-11-11 03:40:31.765 UTC INFO - [rg1-rn1] MigrationStateTracker-serviceId-null thread start: null
+2024-11-11 03:40:31.765 UTC INFO - [rg1-rn1] TextIndexFeederStateTracker-serviceId-rg1-rn1 thread start: rg1-rn1
+2024-11-11 03:40:31.767 UTC INFO - [rg1-rn1] Table manager change state to MASTER
+2024-11-11 03:40:31.768 UTC INFO - [rg1-rn1] TIF received state change MASTER
+2024-11-11 03:40:31.767 UTC INFO - [rg1-rn1] Migration manager change state to MASTER.
+2024-11-11 03:40:31.768 UTC INFO - [rg1-rn1] no text index found, skip starting TIF.
+2024-11-11 03:40:31.772 UTC INFO - [rg1-rn1] Migration db opened: MigrationDB, generation db opened: PartitionGenMD
+2024-11-11 03:40:31.774 UTC INFO - [rg1-rn1] Migration service accepting requests.
+2024-11-11 03:40:31.776 UTC INFO - [rg1-rn1] Starting Thread[KV table maintenance,5,]
+2024-11-11 03:40:31.777 UTC INFO - [rg1-rn1] kvstore:rg1-rn1:MAIN service port: 44549
+2024-11-11 03:40:31.802 UTC INFO - [rg1-rn1] No RN Login configured. 
+2024-11-11 03:40:31.802 UTC INFO - [rg1-rn1] Service status changed from STARTING to RUNNING
+2024-11-11 03:40:32.393 UTC INFO - [admin1] [rg1-rn1] Service status: RUNNING 2024-11-11 03:40:31 UTC
+2024-11-11 03:40:31.805 UTC INFO - [rg1-rn1] Start statistics gathering: Thread[Key Stats Gather Thread,5,RMI Runtime]
+2024-11-11 03:40:31.805 UTC INFO - [rg1-rn1] Started RepNodeService
+2024-11-11 03:40:31.805 UTC INFO - [rg1-rn1] The next key stats scan interval begins at 2024-11-12 00:00:00.000 UTC
+2024-11-11 03:40:32.273 UTC INFO - [rg1-rn1] Topology updated from seq#: 0 to 4
+2024-11-11 03:40:32.282 UTC INFO - [rg1-rn1] Open SecurityMetadata DB
+2024-11-11 03:40:32.283 UTC INFO - [rg1-rn1] Established 0 partition database handles, topology seq#: 4
+2024-11-11 03:40:32.283 UTC INFO - [rg1-rn1] Open TableMetadata DB
+2024-11-11 03:40:32.283 UTC INFO - [rg1-rn1] Establishing secondary database handles, table seq#: 0
+2024-11-11 03:40:32.285 UTC INFO - [rg1-rn1] Established 0 secondary database handles
+2024-11-11 03:40:32.285 UTC INFO - [rg1-rn1] Establishing secondary database handles, table seq#: 0
+2024-11-11 03:40:32.373 UTC INFO - [rg1-rn1] Topology stored seq#: 4
+2024-11-11 03:40:32.373 UTC INFO - [rg1-rn1] Updating table metadata with TableMetadata[9, n:-, t:9, 9]
+2024-11-11 03:40:32.375 UTC INFO - [rg1-rn1] Enabling table metadata split, serial version=25
+2024-11-11 03:40:32.379 UTC INFO - [rg1-rn1] Metadata stored: TableMetadata[9, n:-, t:9, 9]
+2024-11-11 03:40:32.380 UTC INFO - [rg1-rn1] Starting Thread[KV table maintenance,5,]
+2024-11-11 03:40:32.380 UTC INFO - [rg1-rn1] Establishing secondary database handles, table seq#: 9
+2024-11-11 03:40:32.380 UTC INFO - [rg1-rn1] Established 0 secondary database handles
+2024-11-11 03:40:32.427 UTC INFO - [admin1] PlanProgress [id=13 name=Deploy KVStore state=RUNNING reportTime=2024-11-11 03:40:32 UTC numAttempts=1 generalTask_Total=9 generalTask_Successful=3 generalTask_NotStarted=6]
+2024-11-11 03:40:32.464 UTC INFO - [admin1] Plan 13 [Deploy KVStore] task [DeployNewRN rg1-rn1 on sn1(127.0.0.1:5000)] [3] ended, state=SUCCEEDED
+2024-11-11 03:40:32.464 UTC INFO - [admin1] Plan 13 [Deploy KVStore] task [UpdateNthRNHelperHost] [4] started
+2024-11-11 03:40:32.466 UTC INFO - [admin1] Changing helperHost for rg1-rn1 in metadata database  to 127.0.0.1:5003
+2024-11-11 03:40:32.520 UTC INFO - [admin1] Changed helperHost for rg1-rn1 on sn1 to 127.0.0.1:5003
+2024-11-11 03:40:32.556 UTC INFO - [admin1] PlanProgress [id=13 name=Deploy KVStore state=RUNNING reportTime=2024-11-11 03:40:32 UTC numAttempts=1 generalTask_Total=9 generalTask_Successful=4 generalTask_NotStarted=5]
+2024-11-11 03:40:32.598 UTC INFO - [admin1] Plan 13 [Deploy KVStore] task [UpdateNthRNHelperHost] [4] ended, state=SUCCEEDED
+2024-11-11 03:40:32.599 UTC INFO - [admin1] Plan 13 [Deploy KVStore] task [NewNthRNParameters] [5] started
+2024-11-11 03:40:32.648 UTC INFO - [admin1] PlanProgress [id=13 name=Deploy KVStore state=RUNNING reportTime=2024-11-11 03:40:32 UTC numAttempts=1 generalTask_Total=9 generalTask_Successful=5 generalTask_NotStarted=4]
+2024-11-11 03:40:32.690 UTC INFO - [admin1] Plan 13 [Deploy KVStore] task [NewNthRNParameters] [5] ended, state=SUCCEEDED
+2024-11-11 03:40:32.691 UTC INFO - [admin1] Plan 13 [Deploy KVStore] task [BroadcastTopo] [6] started
+2024-11-11 03:40:32.692 UTC INFO - [admin1] Broadcasting topology seq# 4, changes for plan 13
+2024-11-11 03:40:32.729 UTC INFO - [admin1] PlanProgress [id=13 name=Deploy KVStore state=RUNNING reportTime=2024-11-11 03:40:32 UTC numAttempts=1 generalTask_Total=9 generalTask_Successful=6 generalTask_NotStarted=3]
+2024-11-11 03:40:32.770 UTC INFO - [admin1] Plan 13 [Deploy KVStore] task [BroadcastTopo] [6] ended, state=SUCCEEDED
+2024-11-11 03:40:32.772 UTC INFO - [admin1] Plan 13 [Deploy KVStore] task [BroadcastMetadata] [7] started
+2024-11-11 03:40:32.809 UTC INFO - [admin1] PlanProgress [id=13 name=Deploy KVStore state=RUNNING reportTime=2024-11-11 03:40:32 UTC numAttempts=1 generalTask_Total=9 generalTask_Successful=7 generalTask_NotStarted=2]
+2024-11-11 03:40:32.850 UTC INFO - [admin1] Plan 13 [Deploy KVStore] task [BroadcastMetadata] [7] ended, state=SUCCEEDED
+2024-11-11 03:40:32.852 UTC INFO - [admin1] Plan 13 [Deploy KVStore] task [AddPartitions totalPartitions=10] [8] started
+2024-11-11 03:40:32.902 UTC INFO - [admin1] Broadcasting topology seq# 14, changes for Initializing new partitions
+2024-11-11 03:40:32.995 UTC INFO - [admin1] PlanProgress [id=13 name=Deploy KVStore state=RUNNING reportTime=2024-11-11 03:40:32 UTC numAttempts=1 generalTask_Total=9 generalTask_Successful=8 generalTask_NotStarted=1]
+2024-11-11 03:40:33.034 UTC INFO - [admin1] Plan 13 [Deploy KVStore] task [AddPartitions totalPartitions=10] [8] ended, state=SUCCEEDED
+2024-11-11 03:40:33.035 UTC INFO - [admin1] Plan 13 [Deploy KVStore] task [BroadcastTopo] [9] started
+2024-11-11 03:40:33.037 UTC INFO - [admin1] Broadcasting topology seq# 14, changes for plan 13
+2024-11-11 03:40:33.116 UTC INFO - [admin1] PlanProgress [id=13 name=Deploy KVStore state=RUNNING reportTime=2024-11-11 03:40:33 UTC numAttempts=1 generalTask_Total=9 generalTask_Successful=9]
+2024-11-11 03:40:33.154 UTC INFO - [admin1] Plan 13 [Deploy KVStore] task [BroadcastTopo] [9] ended, state=SUCCEEDED
+2024-11-11 03:40:33.155 UTC INFO - [admin1] PlanStateChange [id=13 name=Deploy KVStore state=SUCCEEDED at 2024-11-11 03:40:33 UTC numAttempts=1 : Plan finished.]
+2024-11-11 03:40:33.194 UTC INFO - [admin1] Plan 13 [Deploy KVStore] ended, state=SUCCEEDED
+2024-11-11 03:40:40.104 UTC INFO - [admin1] Checking status of system tables
+2024-11-11 03:40:40.114 UTC INFO - [admin1] Exit Thread[System table monitor,5,RMI Runtime]
+2024-11-11 03:40:30.258 UTC INFO - [sn1] admin1: Creating AdminService
+2024-11-11 03:40:30.281 UTC INFO - [sn1] admin1: Created AdminService
+2024-11-11 03:40:30.533 UTC INFO - [sn1] admin1: newAdminParameters called
+2024-11-11 03:40:31.221 UTC INFO - [sn1] rg1-rn1: Creating RepNode
+2024-11-11 03:40:31.247 UTC INFO - [sn1] rg1-rn1: Starting RepNode
+2024-11-11 03:40:31.249 UTC INFO - [sn1] rg1-rn1: Started RepNode
+2024-11-11 03:40:31.249 UTC INFO - [sn1] rg1-rn1: Configuring RepNode
+2024-11-11 03:40:31.805 UTC INFO - [sn1] Thread returning for service rg1-rn1
+2024-11-11 03:40:32.369 UTC INFO - [sn1] noteState called
+2024-11-11 03:40:32.369 UTC INFO - [sn1] added:State RN:rg1-rn1 state: MASTER top seq num: 4
+2024-11-11 03:40:32.370 UTC INFO - [sn1] sn: sn1 state transition: State RN:rg1-rn1 state: MASTER top seq num: 4 active masters:[rg1-rn1] active replicas:0 replica leases:0
+2024-11-11 03:40:32.370 UTC INFO - [sn1] Acquiring initial topology from RNs
+2024-11-11 03:40:32.374 UTC INFO - [sn1] Topology acquired from RN: rg1-rn1 Topo seq#: 4
+2024-11-11 03:40:32.380 UTC INFO - [sn1] rg1-rn1: Created RepNode
+2024-11-11 03:40:32.509 UTC INFO - [sn1] rg1-rn1: newRepNodeParameters called
+2024-11-11 03:40:32.606 UTC INFO - [rg1-rn1] newParameters are identical to old parameters
+2024-11-11 03:40:32.911 UTC INFO - [rg1-rn1] Topology incrementally updated from seq#: 4 to 14
+2024-11-11 03:40:32.913 UTC INFO - [rg1-rn1] Starting Thread[KV table maintenance,5,]
+2024-11-11 03:40:32.914 UTC INFO - [rg1-rn1] Establishing secondary database handles, table seq#: 9
+2024-11-11 03:40:32.914 UTC INFO - [rg1-rn1] Established 0 secondary database handles
+2024-11-11 03:40:32.953 UTC INFO - [rg1-rn1] Topology stored seq#: 14
+2024-11-11 03:40:32.962 UTC INFO - [rg1-rn1] Established 10 partition database handles, topology seq#: 14
+2024-11-11 03:41:26.939 UTC INFO - [admin1] SoftwareVersionUpdater: resetting interval to: 3600000 milliseconds (1 agents)
+2024-11-11 03:41:17.825 UTC INFO - [rg1-rn1] Task coordinator. Max trailing throughput: 12,600 RWKB/sec. App permits:70% (2 permits); Outstanding permits: 0 real, 0 deficit. < Task: KVStorageStats, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: JEBackupManagerCopyLogFile, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: KVIndexCreation, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >
+2024-11-11 03:41:29.827 UTC INFO - [rg1-rn1] Task coordinator. Max trailing throughput: 0 RWKB/sec. App permits:0% (0 permits); Outstanding permits: 0 real, 0 deficit. < Task: KVStorageStats, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: JEBackupManagerCopyLogFile, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: KVIndexCreation, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >
+2024-11-11 03:41:29.885 UTC INFO - [rg1-rn1] Establishing RMI connection for admin DDL
+2024-11-11 03:41:29.890 UTC INFO - [rg1-rn1] Establishing RMI connection for admin DDL
+2024-11-11 03:41:29.892 UTC INFO - [rg1-rn1] Establishing RMI connection for admin DDL
+2024-11-11 03:41:30.021 UTC INFO - [rg1-rn1] JE: Updated minimum JE group version to 6.5.0
+2024-11-11 03:41:30.114 UTC INFO - [rg1-rn1] Key stats scan took 244ms to scan 17458 records
+2024-11-11 03:42:23.064 UTC INFO - [rg1-rn1] Task coordinator. Max trailing throughput: 11,583 RWKB/sec. App permits:70% (2 permits); Outstanding permits: 0 real, 0 deficit. < Task: KVStorageStats, permits:1 Real permits granted: 10 Deficit permits granted: 0 Expired permits:0 >, < Task: JEBackupManagerCopyLogFile, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: KVIndexCreation, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >
+2024-11-11 03:42:28.472 UTC INFO - [sn1] Topology acquired from RN: rg1-rn1 Topo seq#: 14
+2024-11-11 03:42:36.084 UTC INFO - [rg1-rn1] Task coordinator. Max trailing throughput: 9,499 RWKB/sec. App permits:30% (0 permits); Outstanding permits: 0 real, 0 deficit. < Task: KVStorageStats, permits:1 Real permits granted: 10 Deficit permits granted: 0 Expired permits:0 >, < Task: JEBackupManagerCopyLogFile, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: KVIndexCreation, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >
+2024-11-11 03:43:08.265 UTC INFO - [rg1-rn1] Task coordinator. Max trailing throughput: 12,373 RWKB/sec. App permits:70% (2 permits); Outstanding permits: 0 real, 0 deficit. < Task: KVStorageStats, permits:1 Real permits granted: 10 Deficit permits granted: 0 Expired permits:0 >, < Task: JEBackupManagerCopyLogFile, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: KVIndexCreation, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >
+2024-11-11 03:43:20.294 UTC INFO - [rg1-rn1] Task coordinator. Max trailing throughput: 0 RWKB/sec. App permits:0% (0 permits); Outstanding permits: 0 real, 0 deficit. < Task: KVStorageStats, permits:1 Real permits granted: 10 Deficit permits granted: 0 Expired permits:0 >, < Task: JEBackupManagerCopyLogFile, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: KVIndexCreation, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >
+2024-11-11 03:43:28.315 UTC INFO - [rg1-rn1] Task coordinator. Max trailing throughput: 35,739 RWKB/sec. App permits:100% (3 permits); Outstanding permits: 0 real, 0 deficit. < Task: KVStorageStats, permits:1 Real permits granted: 10 Deficit permits granted: 0 Expired permits:0 >, < Task: JEBackupManagerCopyLogFile, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: KVIndexCreation, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >
+2024-11-11 03:43:36.340 UTC INFO - [rg1-rn1] Task coordinator. Max trailing throughput: 18,997 RWKB/sec. App permits:70% (2 permits); Outstanding permits: 0 real, 0 deficit. < Task: KVStorageStats, permits:1 Real permits granted: 10 Deficit permits granted: 0 Expired permits:0 >, < Task: JEBackupManagerCopyLogFile, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: KVIndexCreation, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >
+2024-11-11 03:43:37.346 UTC INFO - [rg1-rn1] Task coordinator. Max trailing throughput: 10,078 RWKB/sec. App permits:30% (0 permits); Outstanding permits: 0 real, 0 deficit. < Task: KVStorageStats, permits:1 Real permits granted: 10 Deficit permits granted: 0 Expired permits:0 >, < Task: JEBackupManagerCopyLogFile, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: KVIndexCreation, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >
+2024-11-11 03:43:47.361 UTC INFO - [rg1-rn1] Task coordinator. Max trailing throughput: 14,018 RWKB/sec. App permits:70% (2 permits); Outstanding permits: 0 real, 0 deficit. < Task: KVStorageStats, permits:1 Real permits granted: 10 Deficit permits granted: 0 Expired permits:0 >, < Task: JEBackupManagerCopyLogFile, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: KVIndexCreation, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >
+2024-11-11 03:43:59.468 UTC INFO - [rg1-rn1] Task coordinator. Max trailing throughput: 0 RWKB/sec. App permits:0% (0 permits); Outstanding permits: 0 real, 0 deficit. < Task: KVStorageStats, permits:1 Real permits granted: 10 Deficit permits granted: 0 Expired permits:0 >, < Task: JEBackupManagerCopyLogFile, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: KVIndexCreation, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >
+2024-11-11 03:44:17.657 UTC INFO - [rg1-rn1] Task coordinator. Max trailing throughput: 11,344 RWKB/sec. App permits:70% (2 permits); Outstanding permits: 0 real, 0 deficit. < Task: KVStorageStats, permits:1 Real permits granted: 10 Deficit permits granted: 0 Expired permits:0 >, < Task: JEBackupManagerCopyLogFile, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: KVIndexCreation, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >
+2024-11-11 03:44:29.679 UTC INFO - [rg1-rn1] Task coordinator. Max trailing throughput: 7,246 RWKB/sec. App permits:30% (0 permits); Outstanding permits: 0 real, 0 deficit. < Task: KVStorageStats, permits:1 Real permits granted: 10 Deficit permits granted: 0 Expired permits:0 >, < Task: JEBackupManagerCopyLogFile, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: KVIndexCreation, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >
+2024-11-11 03:44:39.695 UTC INFO - [rg1-rn1] Task coordinator. Max trailing throughput: 10,828 RWKB/sec. App permits:70% (2 permits); Outstanding permits: 0 real, 0 deficit. < Task: KVStorageStats, permits:1 Real permits granted: 10 Deficit permits granted: 0 Expired permits:0 >, < Task: JEBackupManagerCopyLogFile, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: KVIndexCreation, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >
+2024-11-11 03:44:51.714 UTC INFO - [rg1-rn1] Task coordinator. Max trailing throughput: 0 RWKB/sec. App permits:0% (0 permits); Outstanding permits: 0 real, 0 deficit. < Task: KVStorageStats, permits:1 Real permits granted: 10 Deficit permits granted: 0 Expired permits:0 >, < Task: JEBackupManagerCopyLogFile, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: KVIndexCreation, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >
+2024-11-11 03:45:15.829 UTC INFO - [rg1-rn1] Task coordinator. Max trailing throughput: 30,971 RWKB/sec. App permits:100% (3 permits); Outstanding permits: 0 real, 0 deficit. < Task: KVStorageStats, permits:1 Real permits granted: 10 Deficit permits granted: 0 Expired permits:0 >, < Task: JEBackupManagerCopyLogFile, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: KVIndexCreation, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >
+2024-11-11 03:45:23.905 UTC INFO - [rg1-rn1] Task coordinator. Max trailing throughput: 19,002 RWKB/sec. App permits:70% (2 permits); Outstanding permits: 0 real, 0 deficit. < Task: KVStorageStats, permits:1 Real permits granted: 10 Deficit permits granted: 0 Expired permits:0 >, < Task: JEBackupManagerCopyLogFile, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: KVIndexCreation, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >
+2024-11-11 03:45:31.002 UTC INFO - [rg1-rn1] Task coordinator. Max trailing throughput: 9 RWKB/sec. App permits:0% (0 permits); Outstanding permits: 0 real, 0 deficit. < Task: KVStorageStats, permits:1 Real permits granted: 10 Deficit permits granted: 0 Expired permits:0 >, < Task: JEBackupManagerCopyLogFile, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >, < Task: KVIndexCreation, permits:1 Real permits granted: 0 Deficit permits granted: 0 Expired permits:0 >

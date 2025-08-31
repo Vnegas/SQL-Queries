@@ -1,0 +1,22 @@
+2024-11-11 03:40:26.920 UTC INFO [1] Coordinating tasks:JEBackupManagerCopyLogFileMax real permits:1
+2024-11-11 03:40:27.123 UTC INFO [1] Checkpoint Start.Checkpoint Id=1
+2024-11-11 03:40:27.174 UTC INFO [1] Checkpoint End. Checkpoint Id=1 success=true
+2024-11-11 03:40:27.229 UTC INFO [1] No server auth method
+2024-11-11 03:40:27.230 UTC INFO [1] Started ServiceDispatcher. HostPort=localhost:5002
+2024-11-11 03:40:27.232 UTC INFO [1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2024-11-11 03:40:27.258 UTC INFO [1] DTVLSN at start:0
+2024-11-11 03:40:27.259 UTC INFO [1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2024-11-11 03:40:27.270 UTC INFO [1] Learner started
+2024-11-11 03:40:27.272 UTC INFO [1] Acceptor started
+2024-11-11 03:40:27.273 UTC INFO [1] Current group size: 0
+2024-11-11 03:40:27.273 UTC INFO [1] New node 1(-1) unknown to rep group
+2024-11-11 03:40:27.273 UTC INFO [1] Learner notified. Proposal:Proposal(00000193194efd09:ecc5922f027886ea01347fd3a6efdfe9:00000001) Value: Value:127.0.0.1$$$5002$$$1$$$1
+2024-11-11 03:40:27.274 UTC INFO [1] Master changed to 1
+2024-11-11 03:40:27.274 UTC INFO [1] Nascent group. 1 is master by virtue of being the first node.
+2024-11-11 03:40:27.275 UTC INFO [1] node:1(1) state change from UNKNOWN to MASTER
+2024-11-11 03:40:27.693 UTC INFO [1] Successfully added node:1(1) HostPort = 127.0.0.1: 5002 [ELECTABLE]
+2024-11-11 03:40:27.702 UTC INFO [1] Node 1 started
+2024-11-11 03:40:27.704 UTC INFO [1] node:NullNode(-1) state change from MASTER to UNKNOWN
+2024-11-11 03:40:27.714 UTC INFO [1] node:1(1) state change from UNKNOWN to MASTER
+2024-11-11 03:40:27.715 UTC INFO [1] Feeder manager accepting requests.
+2024-11-11 03:40:27.717 UTC INFO [1] Joining group as master

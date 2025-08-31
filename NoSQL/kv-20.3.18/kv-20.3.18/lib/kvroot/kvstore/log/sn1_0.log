@@ -1,0 +1,26 @@
+2024-11-11 03:40:29.059 UTC INFO [sn1] Starting StorageNodeAgent for kvstore NoSQL version:20.3.18 2021-05-05 05:19:35 UTC  Build id: 8d8b7830ce8d Edition: Community JE version:20.3.17 Java version:11.0.24
+2024-11-11 03:40:29.276 UTC INFO [sn1] Create collector service and register parameter listeners successfully.
+2024-11-11 03:40:29.281 UTC INFO [sn1] Started MasterRebalanceThread
+2024-11-11 03:40:29.289 UTC INFO [sn1] Starting MonitorAgent.  Server socket factory:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync> Client socket factory:<ClientSocketFactory name=kvstore|sn|monitor id=-322785315 connectMs=10000 readMs=5000 clientId=none localAddr=none>
+2024-11-11 03:40:29.292 UTC INFO [sn1] kvstore:sn1:MONITOR service port: 41919
+2024-11-11 03:40:29.300 UTC INFO [sn1] Successfully created secure proxy for the storage node agent
+2024-11-11 03:40:29.304 UTC INFO [sn1] kvstore:sn1:MAIN service port: 41919
+2024-11-11 03:40:29.304 UTC INFO [sn1] Rebound to registry port 5000 using name sn1 with SSF:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync>
+2024-11-11 03:40:29.305 UTC INFO [sn1] Service status changed from STARTING to RUNNING
+2024-11-11 03:40:29.305 UTC INFO [sn1] Started StorageNodeAgent for kvstore
+2024-11-11 03:40:30.258 UTC INFO [sn1] admin1: Creating AdminService
+2024-11-11 03:40:30.281 UTC INFO [sn1] admin1: Created AdminService
+2024-11-11 03:40:30.533 UTC INFO [sn1] admin1: newAdminParameters called
+2024-11-11 03:40:31.221 UTC INFO [sn1] rg1-rn1: Creating RepNode
+2024-11-11 03:40:31.247 UTC INFO [sn1] rg1-rn1: Starting RepNode
+2024-11-11 03:40:31.249 UTC INFO [sn1] rg1-rn1: Started RepNode
+2024-11-11 03:40:31.249 UTC INFO [sn1] rg1-rn1: Configuring RepNode
+2024-11-11 03:40:31.805 UTC INFO [sn1] Thread returning for service rg1-rn1
+2024-11-11 03:40:32.369 UTC INFO [sn1] noteState called
+2024-11-11 03:40:32.369 UTC INFO [sn1] added:State RN:rg1-rn1 state: MASTER top seq num: 4
+2024-11-11 03:40:32.370 UTC INFO [sn1] sn: sn1 state transition: State RN:rg1-rn1 state: MASTER top seq num: 4 active masters:[rg1-rn1] active replicas:0 replica leases:0
+2024-11-11 03:40:32.370 UTC INFO [sn1] Acquiring initial topology from RNs
+2024-11-11 03:40:32.374 UTC INFO [sn1] Topology acquired from RN: rg1-rn1 Topo seq#: 4
+2024-11-11 03:40:32.380 UTC INFO [sn1] rg1-rn1: Created RepNode
+2024-11-11 03:40:32.509 UTC INFO [sn1] rg1-rn1: newRepNodeParameters called
+2024-11-11 03:42:28.472 UTC INFO [sn1] Topology acquired from RN: rg1-rn1 Topo seq#: 14

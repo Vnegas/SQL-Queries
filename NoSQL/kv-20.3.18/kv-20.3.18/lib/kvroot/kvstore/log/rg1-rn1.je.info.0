@@ -1,0 +1,23 @@
+2024-11-11 03:40:31.424 UTC INFO [rg1-rn1] Coordinating tasks:JEBackupManagerCopyLogFileMax real permits:1
+2024-11-11 03:40:31.444 UTC INFO [rg1-rn1] Checkpoint Start.Checkpoint Id=1
+2024-11-11 03:40:31.501 UTC INFO [rg1-rn1] Checkpoint End. Checkpoint Id=1 success=true
+2024-11-11 03:40:31.522 UTC INFO [rg1-rn1] No server auth method
+2024-11-11 03:40:31.524 UTC INFO [rg1-rn1] Started ServiceDispatcher. HostPort=localhost:5003
+2024-11-11 03:40:31.527 UTC INFO [rg1-rn1] DTVLSN at start:0
+2024-11-11 03:40:31.530 UTC INFO [rg1-rn1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2024-11-11 03:40:31.531 UTC INFO [rg1-rn1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2024-11-11 03:40:31.532 UTC INFO [rg1-rn1] Learner started
+2024-11-11 03:40:31.533 UTC INFO [rg1-rn1] Acceptor started
+2024-11-11 03:40:31.533 UTC INFO [rg1-rn1] Current group size: 0
+2024-11-11 03:40:31.535 UTC INFO [rg1-rn1] New node rg1-rn1(-1) unknown to rep group
+2024-11-11 03:40:31.535 UTC INFO [rg1-rn1] Learner notified. Proposal:Proposal(00000193194f0daf:ecc5922f027886ea01347fd3a6efdfe9:00000002) Value: Value:127.0.0.1$$$5003$$$rg1-rn1$$$1
+2024-11-11 03:40:31.535 UTC INFO [rg1-rn1] Master changed to rg1-rn1
+2024-11-11 03:40:31.536 UTC INFO [rg1-rn1] Nascent group. rg1-rn1 is master by virtue of being the first node.
+2024-11-11 03:40:31.536 UTC INFO [rg1-rn1] node:rg1-rn1(1) state change from UNKNOWN to MASTER
+2024-11-11 03:40:31.704 UTC INFO [rg1-rn1] Successfully added node:rg1-rn1(1) HostPort = 127.0.0.1: 5003 [ELECTABLE]
+2024-11-11 03:40:31.708 UTC INFO [rg1-rn1] Node rg1-rn1 started
+2024-11-11 03:40:31.709 UTC INFO [rg1-rn1] node:NullNode(-1) state change from MASTER to UNKNOWN
+2024-11-11 03:40:31.710 UTC INFO [rg1-rn1] node:rg1-rn1(1) state change from UNKNOWN to MASTER
+2024-11-11 03:40:31.711 UTC INFO [rg1-rn1] Feeder manager accepting requests.
+2024-11-11 03:40:31.711 UTC INFO [rg1-rn1] Joining group as master
+2024-11-11 03:41:30.019 UTC INFO [rg1-rn1] Updated minimum JE group version to 6.5.0

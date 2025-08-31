@@ -1,0 +1,191 @@
+2024-11-11 03:40:26.869 UTC INFO [admin1] Initializing PRIMARY Admin for store: kvstore
+2024-11-11 03:40:26.871 UTC INFO [admin1] Created new admin environment dir: ./kvroot/kvstore/sn1/admin1/env
+2024-11-11 03:40:26.872 UTC INFO [admin1] JVM Runtime maxMemory (bytes): 67108864
+2024-11-11 03:40:26.873 UTC INFO [admin1] Non-default JE properties for environment: {je.cleaner.threads=2, je.evictor.criticalPercentage=20, je.maxDisk=3221225472, je.cleaner.minUtilization=40, je.log.numBuffers=16, je.lock.timeout=10 s, je.env.runVerifier=false, je.cleaner.readSize=1048576, je.log.writeQueueSize=2097152, je.log.fileCacheSize=2000, je.log.iteratorReadSize=1048576, je.log.fileMax=52428800, je.lock.nLockTables=97, je.env.runEvictor=true, je.cleaner.minFileUtilization=5, je.log.faultReadSize=4096, je.txn.durability=write_no_sync,write_no_sync,simple_majority, je.nodeMaxEntries=128}
+2024-11-11 03:40:26.879 UTC INFO [admin1] DataChannelFactory: basic
+2024-11-11 03:40:26.881 UTC INFO [admin1] AdminStateTracker-serviceId-admin1 thread start: admin1
+2024-11-11 03:40:26.920 UTC INFO [admin1] JE: Coordinating tasks:JEBackupManagerCopyLogFileMax real permits:1
+2024-11-11 03:40:27.089 UTC INFO [admin1] JE recovery: POPULATE_UTILIZATION_PROFILE
+2024-11-11 03:40:27.111 UTC INFO [admin1] JE recovery: POPULATE_EXPIRATION_PROFILE
+2024-11-11 03:40:27.115 UTC INFO [admin1] JE recovery: REMOVE_TEMP_DBS
+2024-11-11 03:40:27.122 UTC INFO [admin1] JE recovery: CKPT
+2024-11-11 03:40:27.123 UTC INFO [admin1] JE: Checkpoint Start.Checkpoint Id=1
+2024-11-11 03:40:27.175 UTC INFO [admin1] JE: Checkpoint End. Checkpoint Id=1 success=true
+2024-11-11 03:40:27.189 UTC INFO [admin1] JE recovery: RECOVERY_FINISHED
+2024-11-11 03:40:27.229 UTC INFO [admin1] JE: No server auth method
+2024-11-11 03:40:27.231 UTC INFO [admin1] JE: Started ServiceDispatcher. HostPort=localhost:5002
+2024-11-11 03:40:27.232 UTC INFO [admin1] JE: DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2024-11-11 03:40:27.258 UTC INFO [admin1] JE: DTVLSN at start:0
+2024-11-11 03:40:27.259 UTC INFO [admin1] JE: node:NullNode(-1) state change from DETACHED to UNKNOWN
+2024-11-11 03:40:27.270 UTC INFO [admin1] JE: Learner started
+2024-11-11 03:40:27.272 UTC INFO [admin1] JE: Acceptor started
+2024-11-11 03:40:27.273 UTC INFO [admin1] JE: Current group size: 0
+2024-11-11 03:40:27.273 UTC INFO [admin1] JE: New node 1(-1) unknown to rep group
+2024-11-11 03:40:27.273 UTC INFO [admin1] JE: Learner notified. Proposal:Proposal(00000193194efd09:ecc5922f027886ea01347fd3a6efdfe9:00000001) Value: Value:127.0.0.1$$$5002$$$1$$$1
+2024-11-11 03:40:27.274 UTC INFO [admin1] JE: Master changed to 1
+2024-11-11 03:40:27.274 UTC INFO [admin1] JE: Nascent group. 1 is master by virtue of being the first node.
+2024-11-11 03:40:27.275 UTC INFO [admin1] JE: node:1(1) state change from UNKNOWN to MASTER
+2024-11-11 03:40:27.695 UTC INFO [admin1] JE: Successfully added node:1(1) HostPort = 127.0.0.1: 5002 [ELECTABLE]
+2024-11-11 03:40:27.701 UTC INFO [admin1] JE recovery: BECOME_CONSISTENT
+2024-11-11 03:40:27.703 UTC INFO [admin1] JE: Node 1 started
+2024-11-11 03:40:27.705 UTC INFO [admin1] JE: node:NullNode(-1) state change from MASTER to UNKNOWN
+2024-11-11 03:40:27.715 UTC INFO [admin1] JE: node:1(1) state change from UNKNOWN to MASTER
+2024-11-11 03:40:27.716 UTC INFO [admin1] JE: Feeder manager accepting requests.
+2024-11-11 03:40:27.717 UTC INFO [admin1] JE: Joining group as master
+2024-11-11 03:40:27.718 UTC INFO [admin1] State change event: Sun Nov 10 21:40:27 CST 2024, State: MASTER, Type: PRIMARY, Master: 1
+2024-11-11 03:40:27.718 UTC INFO [admin1] AdminStateTracker-serviceId-admin1 queue added:MASTER
+2024-11-11 03:40:27.719 UTC INFO [admin1] Shutting down monitor collector
+2024-11-11 03:40:27.721 UTC INFO [admin1] Initializing Admin Schema to schema version 5/NoSQL DB 20.3.18 2021-05-05 05:19:35 UTC  Build id: 8d8b7830ce8d Edition: Community
+2024-11-11 03:40:27.766 UTC INFO [admin1] Initialize stores at schema version 5, readOnly=false
+2024-11-11 03:40:27.770 UTC INFO [admin1] Open: AdminCriticalEventsDatabase
+2024-11-11 03:40:27.771 UTC INFO [admin1] Open: AdminParametersDatabase
+2024-11-11 03:40:27.772 UTC INFO [admin1] Open: AdminMemoDatabase
+2024-11-11 03:40:27.774 UTC INFO [admin1] Open: AdminPlanDatabase
+2024-11-11 03:40:27.775 UTC INFO [admin1] Open: AdminSecurityDatabase
+2024-11-11 03:40:27.776 UTC INFO [admin1] Open: AdminTableDatabase
+2024-11-11 03:40:27.778 UTC INFO [admin1] Open: AdminTopologyHistoryDatabase
+2024-11-11 03:40:27.778 UTC INFO [admin1] Open: AdminTopologyCandidateDatabase
+2024-11-11 03:40:27.782 UTC INFO [admin1] Initializing Admin database
+2024-11-11 03:40:27.797 UTC INFO [admin1] Admin database initialized
+2024-11-11 03:40:27.843 UTC INFO [admin1] statusListener service port: 39003
+2024-11-11 03:40:27.844 UTC INFO [admin1] perfListener service port: 39003
+2024-11-11 03:40:27.844 UTC INFO [admin1] logListener service port: 39003
+2024-11-11 03:40:27.855 UTC INFO [admin1] Starting Thread[System table monitor,5,RMI Runtime]
+2024-11-11 03:40:27.855 UTC INFO [admin1] Checking status of system tables
+2024-11-11 03:40:27.858 UTC INFO [admin1] Replicated environment handle established. Cache size: 40265318, State: MASTER
+2024-11-11 03:40:27.868 UTC INFO [admin1] Starting task: interval is 20 SECONDS, delay is 12132(ms)
+2024-11-11 03:40:27.869 UTC INFO [admin1] Configured Admin for store: kvstore
+2024-11-11 03:40:27.871 UTC INFO [admin1] Admin web service is not starting up, web port: -1
+2024-11-11 03:40:28.060 UTC INFO [admin1] Plan 1 [Deploy KVLite] approved
+2024-11-11 03:40:28.071 UTC INFO [admin1] Plan 1 [Deploy KVLite] started, 1 tasks
+2024-11-11 03:40:28.178 UTC INFO [admin1] Plan 2 [SYS$Create system table SYS$MRTableAgentStat] approved
+2024-11-11 03:40:28.184 UTC INFO [admin1] Plan 2 [SYS$Create system table SYS$MRTableAgentStat] started, 1 tasks
+2024-11-11 03:40:28.273 UTC INFO [admin1] Plan 2 [SYS$Create system table SYS$MRTableAgentStat] task [AddTable SYS$MRTableAgentStat] [1] started
+2024-11-11 03:40:28.312 UTC INFO [admin1] Plan 1 [Deploy KVLite] task [DeployDatacenter zone=KVLite] [1] started
+2024-11-11 03:40:28.392 UTC INFO [admin1] Plan 3 [SYS$Create system table SYS$SGAttributesTable] approved
+2024-11-11 03:40:28.397 UTC INFO [admin1] Plan 3 [SYS$Create system table SYS$SGAttributesTable] started, 1 tasks
+2024-11-11 03:40:28.473 UTC INFO [admin1] Plan 1 [Deploy KVLite] task [DeployDatacenter zone=KVLite] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:28.473 UTC INFO [admin1] Plan 3 [SYS$Create system table SYS$SGAttributesTable] task [AddTable SYS$SGAttributesTable] [1] started
+2024-11-11 03:40:28.510 UTC INFO [admin1] Plan 2 [SYS$Create system table SYS$MRTableAgentStat] task [AddTable SYS$MRTableAgentStat] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:28.555 UTC INFO [admin1] Plan 1 [Deploy KVLite] ended, state=SUCCEEDED
+2024-11-11 03:40:28.590 UTC INFO [admin1] Plan 2 [SYS$Create system table SYS$MRTableAgentStat] ended, state=SUCCEEDED
+2024-11-11 03:40:28.670 UTC INFO [admin1] Plan 4 [SYS$Create system table SYS$TableStatsPartition] approved
+2024-11-11 03:40:28.671 UTC INFO [admin1] Plan 4 [SYS$Create system table SYS$TableStatsPartition] started, 1 tasks
+2024-11-11 03:40:28.714 UTC INFO [admin1] Plan 3 [SYS$Create system table SYS$SGAttributesTable] task [AddTable SYS$SGAttributesTable] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:28.750 UTC INFO [admin1] Plan 4 [SYS$Create system table SYS$TableStatsPartition] task [AddTable SYS$TableStatsPartition] [1] started
+2024-11-11 03:40:28.795 UTC INFO [admin1] Plan 3 [SYS$Create system table SYS$SGAttributesTable] ended, state=SUCCEEDED
+2024-11-11 03:40:28.874 UTC INFO [admin1] Plan 5 [Deploy Storage Node] approved
+2024-11-11 03:40:28.877 UTC INFO [admin1] Plan 5 [Deploy Storage Node] started, 1 tasks
+2024-11-11 03:40:28.954 UTC INFO [admin1] Plan 5 [Deploy Storage Node] task [DeploySN sn1(127.0.0.1:5000)] [1] started
+2024-11-11 03:40:28.991 UTC INFO [admin1] Plan 4 [SYS$Create system table SYS$TableStatsPartition] task [AddTable SYS$TableStatsPartition] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:29.046 UTC INFO [admin1] Plan 6 [SYS$Create system table SYS$IndexStatsLease] approved
+2024-11-11 03:40:29.047 UTC INFO [admin1] Plan 6 [SYS$Create system table SYS$IndexStatsLease] started, 1 tasks
+2024-11-11 03:40:29.082 UTC INFO [admin1] Plan 4 [SYS$Create system table SYS$TableStatsPartition] ended, state=SUCCEEDED
+2024-11-11 03:40:29.115 UTC INFO [admin1] Plan 6 [SYS$Create system table SYS$IndexStatsLease] task [AddTable SYS$IndexStatsLease] [1] started
+2024-11-11 03:40:29.231 UTC INFO [admin1] Plan 7 [SYS$Create system table SYS$StreamRequest] approved
+2024-11-11 03:40:29.235 UTC INFO [admin1] Plan 7 [SYS$Create system table SYS$StreamRequest] started, 1 tasks
+2024-11-11 03:40:29.300 UTC INFO [admin1] Plan 7 [SYS$Create system table SYS$StreamRequest] task [AddTable SYS$StreamRequest] [1] started
+2024-11-11 03:40:29.344 UTC INFO [admin1] Plan 6 [SYS$Create system table SYS$IndexStatsLease] task [AddTable SYS$IndexStatsLease] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:29.380 UTC INFO [admin1] Monitor collector: adding sn1 to monitoring
+2024-11-11 03:40:29.389 UTC INFO [admin1] [sn1] Service status: RUNNING 2024-11-11 03:40:29 UTC
+2024-11-11 03:40:29.413 UTC INFO [admin1] Plan 6 [SYS$Create system table SYS$IndexStatsLease] ended, state=SUCCEEDED
+2024-11-11 03:40:29.449 UTC INFO [admin1] Plan 8 [SYS$Create system table SYS$TableStatsIndex] approved
+2024-11-11 03:40:29.450 UTC INFO [admin1] Plan 8 [SYS$Create system table SYS$TableStatsIndex] started, 1 tasks
+2024-11-11 03:40:29.518 UTC INFO [admin1] Plan 5 [Deploy Storage Node] task [DeploySN sn1(127.0.0.1:5000)] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:29.518 UTC INFO [admin1] Plan 8 [SYS$Create system table SYS$TableStatsIndex] task [AddTable SYS$TableStatsIndex] [1] started
+2024-11-11 03:40:29.518 UTC INFO [admin1] Plan 7 [SYS$Create system table SYS$StreamRequest] task [AddTable SYS$StreamRequest] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:29.586 UTC INFO [admin1] Plan 7 [SYS$Create system table SYS$StreamRequest] ended, state=SUCCEEDED
+2024-11-11 03:40:29.586 UTC INFO [admin1] Plan 5 [Deploy Storage Node] ended, state=SUCCEEDED
+2024-11-11 03:40:29.620 UTC INFO [admin1] Plan 9 [SYS$Create system table SYS$StreamResponse] approved
+2024-11-11 03:40:29.621 UTC INFO [admin1] Plan 9 [SYS$Create system table SYS$StreamResponse] started, 1 tasks
+2024-11-11 03:40:29.689 UTC INFO [admin1] Plan 9 [SYS$Create system table SYS$StreamResponse] task [AddTable SYS$StreamResponse] [1] started
+2024-11-11 03:40:29.724 UTC INFO [admin1] Plan 8 [SYS$Create system table SYS$TableStatsIndex] task [AddTable SYS$TableStatsIndex] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:29.793 UTC INFO [admin1] Plan 8 [SYS$Create system table SYS$TableStatsIndex] ended, state=SUCCEEDED
+2024-11-11 03:40:29.827 UTC INFO [admin1] Plan 10 [SYS$Create system table SYS$MRTableInitCheckpoint] approved
+2024-11-11 03:40:29.830 UTC INFO [admin1] Plan 10 [SYS$Create system table SYS$MRTableInitCheckpoint] started, 1 tasks
+2024-11-11 03:40:29.861 UTC INFO [admin1] Plan 9 [SYS$Create system table SYS$StreamResponse] task [AddTable SYS$StreamResponse] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:29.896 UTC INFO [admin1] Plan 10 [SYS$Create system table SYS$MRTableInitCheckpoint] task [AddTable SYS$MRTableInitCheckpoint] [1] started
+2024-11-11 03:40:29.930 UTC INFO [admin1] Plan 9 [SYS$Create system table SYS$StreamResponse] ended, state=SUCCEEDED
+2024-11-11 03:40:29.964 UTC INFO [admin1] Plan 11 [Deploy Admin Service] approved
+2024-11-11 03:40:29.968 UTC INFO [admin1] Plan 11 [Deploy Admin Service] started, 3 tasks
+2024-11-11 03:40:30.067 UTC INFO [admin1] Plan 10 [SYS$Create system table SYS$MRTableInitCheckpoint] task [AddTable SYS$MRTableInitCheckpoint] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:30.102 UTC INFO [admin1] Plan 12 [SYS$Create system table SYS$PartitionStatsLease] approved
+2024-11-11 03:40:30.104 UTC INFO [admin1] Plan 12 [SYS$Create system table SYS$PartitionStatsLease] started, 1 tasks
+2024-11-11 03:40:30.137 UTC INFO [admin1] Plan 10 [SYS$Create system table SYS$MRTableInitCheckpoint] ended, state=SUCCEEDED
+2024-11-11 03:40:30.172 UTC INFO [admin1] Plan 12 [SYS$Create system table SYS$PartitionStatsLease] task [AddTable SYS$PartitionStatsLease] [1] started
+2024-11-11 03:40:30.172 UTC INFO [admin1] Plan 11 [Deploy Admin Service] task [DeployAdmin admin1 on sn1] [1] started
+2024-11-11 03:40:30.276 UTC INFO [admin1] newParameters called for Monitor
+2024-11-11 03:40:30.280 UTC INFO [admin1] newGlobalParameters are identical to old global parameters
+2024-11-11 03:40:30.354 UTC INFO [admin1] Plan 12 [SYS$Create system table SYS$PartitionStatsLease] task [AddTable SYS$PartitionStatsLease] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:30.389 UTC INFO [admin1] Plan 11 [Deploy Admin Service] task [DeployAdmin admin1 on sn1] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:30.393 UTC INFO [admin1] Plan 11 [Deploy Admin Service] task [WaitForAdminState admin1 to reach RUNNING] [2] started
+2024-11-11 03:40:30.423 UTC INFO [admin1] Plan 12 [SYS$Create system table SYS$PartitionStatsLease] ended, state=SUCCEEDED
+2024-11-11 03:40:30.492 UTC INFO [admin1] Plan 11 [Deploy Admin Service] task [WaitForAdminState admin1 to reach RUNNING] [2] ended, state=SUCCEEDED
+2024-11-11 03:40:30.494 UTC INFO [admin1] Plan 11 [Deploy Admin Service] task [UpdateAdminHelperHost null] [3] started
+2024-11-11 03:40:30.527 UTC INFO [admin1] oracle.kv.impl.admin.param.Parameters@209290f4 changed helperHost to 127.0.0.1:5002
+2024-11-11 03:40:30.619 UTC INFO [admin1] Plan 11 [Deploy Admin Service] task [UpdateAdminHelperHost null] [3] ended, state=SUCCEEDED
+2024-11-11 03:40:30.652 UTC INFO [admin1] Plan 11 [Deploy Admin Service] ended, state=SUCCEEDED
+2024-11-11 03:40:30.659 UTC INFO [admin1] Created Storage Node Pool: KVLitePool
+2024-11-11 03:40:30.702 UTC INFO [admin1] Added Storage Node sn1 to pool: KVLitePool
+2024-11-11 03:40:30.755 UTC INFO [admin1] KVLite has nothing to rebalance
+2024-11-11 03:40:30.894 UTC INFO [admin1] Plan 13 [Deploy KVStore] approved
+2024-11-11 03:40:30.900 UTC INFO [admin1] Plan 13 [Deploy KVStore] deploying topology candidate KVLite.
+2024-11-11 03:40:30.904 UTC INFO [admin1] Current topology: store=kvstore  numPartitions=0 sequence=2
+  zn: id=zn1 name=KVLite repFactor=1 type=PRIMARY allowArbiters=false masterAffinity=false
+
+  sn=[sn1] zn:[id=zn1 name=KVLite] 127.0.0.1:5000
+
+  numShards=0
+
+2024-11-11 03:40:30.904 UTC INFO [admin1] Preview of changes to be executed by Plan 13 [Deploy KVStore]:
+Topology transformation from current deployed topology to KVLite:
+Create 1 shard 
+Create 1 RN 
+Create 10 partitions 
+
+shard rg1
+  1 new RN : rg1-rn1 
+  10 new partitions 
+
+2024-11-11 03:40:30.905 UTC INFO [admin1] Target topology candidate: KVLite
+store=kvstore  numPartitions=10 sequence=14
+  zn: id=zn1 name=KVLite repFactor=1 type=PRIMARY allowArbiters=false masterAffinity=false
+
+  sn=[sn1] zn:[id=zn1 name=KVLite] 127.0.0.1:5000
+    [rg1-rn1]
+
+  numShards=1
+  shard=[rg1] num partitions=10
+    [rg1-rn1] sn=sn1
+
+2024-11-11 03:40:30.906 UTC INFO [admin1] Plan 13 [Deploy KVStore] started, 9 tasks
+2024-11-11 03:40:30.950 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [UpdateDatacenterV2 zone=zn1] [1] started
+2024-11-11 03:40:31.030 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [UpdateDatacenterV2 zone=zn1] [1] ended, state=SUCCEEDED
+2024-11-11 03:40:31.033 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [DeployShard on [sn1] zn:[id=zn1 name=KVLite] 127.0.0.1:5000 ] [2] started
+2024-11-11 03:40:31.158 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [DeployShard rg1 on [sn1] zn:[id=zn1 name=KVLite] 127.0.0.1:5000 ] [2] ended, state=SUCCEEDED
+2024-11-11 03:40:31.161 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [DeployNewRN on sn1(127.0.0.1:5000)] [3] started
+2024-11-11 03:40:31.169 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [DeployNewRN rg1-rn1 on sn1(127.0.0.1:5000)] creating rg1-rn1 on sn1 haPort=127.0.0.1:5,003 helpers=127.0.0.1:5003 storage directory path=/mnt/e/Universidad/BD_Avanzadas/tarea3/kv-20.3.18/kv-20.3.18/lib/./kvroot/kvstore/sn1 directory size=1,073,741,824 log directory path =null log directory size = 0 heapMB=unspecified cachePercent=70 cacheSize=unspecified -XX:ParallelGCThreads=70
+2024-11-11 03:40:32.380 UTC INFO [admin1] Monitor collector: adding rg1-rn1 to monitoring
+2024-11-11 03:40:32.393 UTC INFO [admin1] [rg1-rn1] Service status: RUNNING 2024-11-11 03:40:31 UTC
+2024-11-11 03:40:32.464 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [DeployNewRN rg1-rn1 on sn1(127.0.0.1:5000)] [3] ended, state=SUCCEEDED
+2024-11-11 03:40:32.464 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [UpdateNthRNHelperHost] [4] started
+2024-11-11 03:40:32.466 UTC INFO [admin1] Changing helperHost for rg1-rn1 in metadata database  to 127.0.0.1:5003
+2024-11-11 03:40:32.520 UTC INFO [admin1] Changed helperHost for rg1-rn1 on sn1 to 127.0.0.1:5003
+2024-11-11 03:40:32.598 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [UpdateNthRNHelperHost] [4] ended, state=SUCCEEDED
+2024-11-11 03:40:32.599 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [NewNthRNParameters] [5] started
+2024-11-11 03:40:32.690 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [NewNthRNParameters] [5] ended, state=SUCCEEDED
+2024-11-11 03:40:32.691 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [BroadcastTopo] [6] started
+2024-11-11 03:40:32.692 UTC INFO [admin1] Broadcasting topology seq# 4, changes for plan 13
+2024-11-11 03:40:32.770 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [BroadcastTopo] [6] ended, state=SUCCEEDED
+2024-11-11 03:40:32.772 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [BroadcastMetadata] [7] started
+2024-11-11 03:40:32.850 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [BroadcastMetadata] [7] ended, state=SUCCEEDED
+2024-11-11 03:40:32.852 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [AddPartitions totalPartitions=10] [8] started
+2024-11-11 03:40:32.902 UTC INFO [admin1] Broadcasting topology seq# 14, changes for Initializing new partitions
+2024-11-11 03:40:33.034 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [AddPartitions totalPartitions=10] [8] ended, state=SUCCEEDED
+2024-11-11 03:40:33.035 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [BroadcastTopo] [9] started
+2024-11-11 03:40:33.037 UTC INFO [admin1] Broadcasting topology seq# 14, changes for plan 13
+2024-11-11 03:40:33.154 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [BroadcastTopo] [9] ended, state=SUCCEEDED
+2024-11-11 03:40:33.194 UTC INFO [admin1] Plan 13 [Deploy KVStore] ended, state=SUCCEEDED
+2024-11-11 03:40:40.104 UTC INFO [admin1] Checking status of system tables
+2024-11-11 03:40:40.114 UTC INFO [admin1] Exit Thread[System table monitor,5,RMI Runtime]
+2024-11-11 03:41:26.939 UTC INFO [admin1] SoftwareVersionUpdater: resetting interval to: 3600000 milliseconds (1 agents)

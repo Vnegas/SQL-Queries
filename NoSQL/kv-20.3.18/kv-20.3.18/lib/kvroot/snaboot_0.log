@@ -1,0 +1,29 @@
+2024-11-11 03:40:25.488 UTC INFO [snaService] Starting, configuration file: ./kvroot/config.xml
+2024-11-11 03:40:25.517 UTC INFO [snaService] Setting java.net.InetAddress cache ttl to: networkaddress.cache.ttl=10, networkaddress.cache.negative.ttl=10
+2024-11-11 03:40:25.518 UTC INFO [snaService] RMI registry serial filter is configured as: sun.rmi.registry.registryFilter=oracle.kv.**;java.lang.Enum
+2024-11-11 03:40:25.540 UTC INFO [snaService] Creating a Registry on port 127.0.0.1:5000 server socket factory:<ClearServerSocketFactory backlog=100 portRange=0,0 acceptMaxActiveConns=0 useAsync>
+2024-11-11 03:40:25.605 UTC INFO [snaService] Successfully created secure proxy for the storage node agent
+2024-11-11 03:40:25.677 UTC INFO [snaService] Bound to registry port 5000 using name snaService with SSF:null
+2024-11-11 03:40:25.678 UTC INFO [snaService] Using mgmt class oracle.kv.impl.mgmt.NoOpAgent
+2024-11-11 03:40:25.804 UTC INFO [snaService] BootstrapAdmin: Starting AdminService
+2024-11-11 03:40:25.805 UTC INFO [snaService] BootstrapAdmin: Started AdminService
+2024-11-11 03:40:25.805 UTC INFO [snaService] Service status changed from STARTING to WAITING_FOR_DEPLOY
+2024-11-11 03:40:25.820 UTC INFO [snaService] Starting in bootstrap mode
+2024-11-11 03:40:25.821 UTC INFO [snaService] Starting commandService on rmi://127.0.0.1:5000/commandService
+2024-11-11 03:40:25.846 UTC INFO [snaService] Successfully created a secure proxy for commandService
+2024-11-11 03:40:25.869 UTC INFO [snaService] commandService service port: 39003
+2024-11-11 03:40:25.869 UTC INFO [snaService] Starting admin:CLIENT_ADMIN on rmi://127.0.0.1:5000/admin:CLIENT_ADMIN
+2024-11-11 03:40:25.987 UTC INFO [snaService] Successfully created a secure proxy for admin:CLIENT_ADMIN
+2024-11-11 03:40:25.992 UTC INFO [snaService] admin:CLIENT_ADMIN service port: 39003
+2024-11-11 03:40:25.992 UTC INFO [snaService] Admin web service is not starting up, web port: -1
+2024-11-11 03:40:25.992 UTC INFO [snaService] Started AdminService
+2024-11-11 03:40:25.992 UTC INFO [snaService] Thread returning for service BootstrapAdmin.5000
+2024-11-11 03:40:27.869 UTC INFO [snaService] Changing log files to log directory for store kvstore
+2024-11-11 03:40:28.961 UTC INFO [snaService] Register: root: ./kvroot, store: kvstore, hostingAdmin: true
+2024-11-11 03:40:28.961 UTC INFO [snaService] System architecture is amd64
+2024-11-11 03:40:28.961 UTC INFO [snaService] Setting number of CPUs to 24
+2024-11-11 03:40:29.034 UTC INFO [snaService] Starting, configuration file: ./kvroot/config.xml
+2024-11-11 03:40:29.043 UTC INFO [snaService] Setting java.net.InetAddress cache ttl to: networkaddress.cache.ttl=10, networkaddress.cache.negative.ttl=10
+2024-11-11 03:40:29.044 UTC INFO [snaService] RMI registry serial filter is configured as: sun.rmi.registry.registryFilter=oracle.kv.**;java.lang.Enum
+2024-11-11 03:40:29.045 UTC INFO [snaService] Registered startup, config file: ./kvroot/kvstore/sn1/config.xml
+2024-11-11 03:40:29.059 UTC INFO [snaService] Changing log files to directory: ./kvroot/kvstore/log
